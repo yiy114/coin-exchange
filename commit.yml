@@ -2,13 +2,1195 @@
 branches: {
   }
 fileChange:
-  /DEVELOP.md:
-    newFile: !uuid 'c09b8d8dcb0e35d2fc8c09741d3a25a4ccffc5b8'
-    oldFile: !uuid '25e9d19d0057d5fe25a21fc1b8c3b09be53276be'
-  /README.md:
-    newFile: !uuid 'd614917dfd10ef35556b99e5c550ccb0d487cf27'
-    oldFile: !uuid 'f72d9064c3dd41ad70b740b47894f71e2fd21be3'
-gitCommitId: !uuid 'ca0fe88370f9f3fe1d58cb3375c9375aedf5d561'
-renames: {
-  }
-revisionId: 7
+  /01_wallet_rpc:
+    newFile: !uuid 'dbecdc18a05104d3d219e34948ca5147f4019df3'
+    oldFile: !uuid 'ccd97cbf6bf77c4beae8af460298f4b9def42c25'
+  /01_wallet_rpc/bch:
+    newFile: !uuid '515aa1a599bc6adbdeb5d3ec491eab648a42bacc'
+    oldFile: !uuid 'e7eb4a5feb386b23bab81cf755d232fc75741d51'
+  /01_wallet_rpc/bch/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/bch/pom.xml:
+    newFile: !uuid '468293bc7a38ff7ac4cc95566c87535216d62454'
+    oldFile: !uuid 'a59f57aa475ff946cf97f63c53449df8e6a7b550'
+  /01_wallet_rpc/bch/src:
+    newFile: !uuid '2d53d08e3c138d7a0abba06c319140ceff74abbb'
+    oldFile: !uuid '46ae24f7151a854bf366dec26006984fdfe50766'
+  /01_wallet_rpc/bch/src/main:
+    newFile: !uuid '04d6216349ad042fcd837fcc5e4976f15e4fc9f3'
+    oldFile: !uuid '8cd6fcd5dbfd31a385eef14d81741dfeab994a1a'
+  /01_wallet_rpc/bch/src/main/java:
+    newFile: !uuid '14ae5d9f96f378b1a9830f2321a45882e4b06d71'
+    oldFile: !uuid '978342ffe06bb795733135f55a44d48e66b9734a'
+  /01_wallet_rpc/bch/src/main/java/com:
+    newFile: !uuid '2cd484711bd9ec49187d04706bc034e9c2b005cc'
+    oldFile: !uuid '00d1035bbca74e32ccb5e8425b433a0694df46cf'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan:
+    newFile: !uuid '872094073fb0fd91b5336ecb32c1a3687d545651'
+    oldFile: !uuid 'd083665c38ca78e5964a1ce19070db37ccac00ae'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc:
+    newFile: !uuid '04d422efaa94ffd9b31bc9335ba620efc287858b'
+    oldFile: !uuid '12eb0c6f199893db22382d02ce6dd2ccb557a4aa'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'de97b7518990a285267dce4e9ff2c6a0e5b3ba87'
+    oldFile: !uuid 'ca78cbf074c1da6cec524a6232c8fad3a84a083b'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid 'f46de7eaabd58e92787a118f7a2d108304165544'
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: !uuid 'f18a0e0cbd962381af09f0d97ff87fbee318854b'
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: !uuid 'bdb38de4b84816953e3279b8738021b021e2b809'
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '983c3dd4df8a6c817f797c20402fe570b407f007'
+    oldFile: !uuid '693f1290771e6f39af8feec1aa1accc3cfc20177'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid 'd19f5190612802225a22814b6ea604b7127c528b'
+    oldFile: !uuid '4ec45d9d38a3269af74d70037f135a4d85c667a7'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid 'c59b9f844235527e41be3701ddb85b4b6ab28268'
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: !uuid '22e1002504077755542db2909d5704bd3b24a4a2'
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '734d29846d59f9fe1a83b18f684e7fa41347910d'
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid 'ae142ffe1015f3188542ea71707c8598f9031a98'
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: !uuid '48e8b944f8acad076ce33c2b8459e2d29c8ead7a'
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: !uuid '688ca75d2771f4b2da2e92baf7301aea27d02fab'
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/bch/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: !uuid 'c2dd7b265ccc4fdbe952fb0387dc4977e6506af8'
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/bch/src/main/resources:
+    newFile: !uuid 'ae9287179c1ce713cce028178775a65fa9903157'
+    oldFile: !uuid '82aea28256c15ac9fdca8e20d882ddeb681777e9'
+  /01_wallet_rpc/bch/src/main/resources/application.properties:
+    newFile: !uuid 'a4588ee625d60de0daa3d4f793883c421f889245'
+    oldFile: !uuid '30e8a7694873f37d3494f60ad6b539ffcfb51511'
+  /01_wallet_rpc/bch/src/main/resources/logback-spring.xml:
+    newFile: !uuid '94e4d205cb6849bc2cec8f7f951a21cebbd67cb8'
+    oldFile: null
+  /01_wallet_rpc/bitcoin:
+    newFile: !uuid 'ecc575edee6498694d17eba0d158cbdf2094ec13'
+    oldFile: !uuid '90b8e3b3a84db0efbdeed15ccfe88de082dc7c19'
+  /01_wallet_rpc/bitcoin-rpc:
+    newFile: !uuid '056026c6ed3d9a8a56f5564f73025604b9fecbff'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/lib:
+    newFile: !uuid 'd163eb8f65ec642a3b8bc9f699d476ee36df3414'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/lib/bitcoin-rpc-1.2.0.jar:
+    newFile: !uuid '5ddd8cb483def29d7e41d3601762a4499284aa06'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/pom.xml:
+    newFile: !uuid 'cc4d9d32cafe1ef4513eb0668f5855c9028cf999'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src:
+    newFile: !uuid '09d6485085ab1400507f0d9b674a1886c8a9ab64'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main:
+    newFile: !uuid 'f7455df3dede24bfe0b64987069a2688510175f9'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java:
+    newFile: !uuid '67cd5c94fd2b0b4d78cc40f6de4910ebd7309269'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com:
+    newFile: !uuid '3e97736c28a1b036f979d66b15cc5d18eda9fc68'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark:
+    newFile: !uuid 'd81be08f6db081cc856b2869cb6d5b5af5542f8b'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain:
+    newFile: !uuid 'e9620576ba58694a39afbfa8782ef2901855223b'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient:
+    newFile: !uuid '2764d596f5bd9a0527e38f318860b25adb96be76'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/Bitcoin.java:
+    newFile: !uuid 'da7d76edf7b8201719b8d648ffb2c25f4d46b4c3'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinAcceptor.java:
+    newFile: !uuid 'c3a1f6d61c1038acb7995b68eeda7957194c9454'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinException.java:
+    newFile: !uuid 'be8f459d8e15ca276e50378c778b11b984dfcb2d'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinPaymentListener.java:
+    newFile: !uuid 'b7ae57f3db9db2323ee84a8bc6f7d9cd19a39606'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinRPCClient.java:
+    newFile: !uuid 'c0217c85d6e6661a5f604791c3b7d6d547d8f359'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinRPCException.java:
+    newFile: !uuid 'ceb785b3171973d3e1b081e6f9d6757fd1053c06'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinRawTxBuilder.java:
+    newFile: !uuid 'ebfef0856b72f86a22a1bac6e1e89bd660f09c5b'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/BitcoinUtil.java:
+    newFile: !uuid '3a7793ebd270462420df105b6bb0bcd231a1bd93'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/ConfirmedPaymentListener.java:
+    newFile: !uuid '4d812dad16ea23813bcffbcac24f1db2a57eaf35'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/ListMapWrapper.java:
+    newFile: !uuid '9db984c4e967cae800b860b47bf5c4b9d3606a1b'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/MapWrapper.java:
+    newFile: !uuid '9e7dd4f19ae863967cf46c327afe69a5f3e55a8e'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/rpcclient/SimpleBitcoinPaymentListener.java:
+    newFile: !uuid 'd34f11447bbe991937d5caf33be69d401baba629'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/util:
+    newFile: !uuid '865d55469d09ae762edd4fdcb98bcf3a626f7731'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/util/Base64Coder.java:
+    newFile: !uuid 'd04b55b0c78089e9bf92c0cda81e99f4670ddca4'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/util/CrippledJavaScriptParser.java:
+    newFile: !uuid '14286449a165e44125fe5b6975a32676fdb065f9'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/util/JSON.java:
+    newFile: !uuid '3e36990b4244be1eb3418d5244ad3d9c8cb68906'
+    oldFile: null
+  /01_wallet_rpc/bitcoin-rpc/src/main/java/com/spark/blockchain/util/StringParser.java:
+    newFile: !uuid '743c090f91bfda1fe504784624604e2c0efd921f'
+    oldFile: null
+  /01_wallet_rpc/bitcoin/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/bitcoin/pom.xml:
+    newFile: !uuid 'd8e1f44fc42ce1efb2aedf50eef15ca69db6b0fe'
+    oldFile: !uuid '2491f2ce7bd677afa827d199b5d1f76d13621418'
+  /01_wallet_rpc/bitcoin/src:
+    newFile: !uuid '9366c9435fb433ce7b4f993fae3d7081acbaccaa'
+    oldFile: !uuid '1483c19afde1c52a492f0d3e9e69cf32d681a32b'
+  /01_wallet_rpc/bitcoin/src/main:
+    newFile: !uuid 'b935bed9bbb9da7562feeee96aad96eb7a6140a2'
+    oldFile: !uuid '8dbaf0eaf06eb305a83e1bdfd749f3aec8b2b2c4'
+  /01_wallet_rpc/bitcoin/src/main/java:
+    newFile: !uuid '15647f0aa201d7e322ff013cfc6e895474bd43dc'
+    oldFile: !uuid '6bed0ae3a76d306b6b8cf6b974c0d85520742a4d'
+  /01_wallet_rpc/bitcoin/src/main/java/com:
+    newFile: !uuid '79470064cc8d81b382d2b30d5e5957db4a3e9bde'
+    oldFile: !uuid '245b95482e65b08779d004779e662d44af638567'
+  /01_wallet_rpc/bitcoin/src/main/java/com/bizzan:
+    newFile: !uuid '2a7f81cde71066ac2dcbae58f935ec2507cd74b5'
+    oldFile: !uuid 'ba1c56ec8f9321d610dcbd1957a1a111fb592847'
+  /01_wallet_rpc/bitcoin/src/main/java/com/bizzan/bc:
+    newFile: !uuid 'bdbf7a932ff1375750c5c700e1ab5c7c2f372e06'
+    oldFile: !uuid '8da7e7caf4ff81ef7adf4b662d9409cff931ee0d'
+  /01_wallet_rpc/bitcoin/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid '2e3744957bc885c375f0593eaec0feb0e26f10ff'
+    oldFile: !uuid '7ba8a4144035b0065cfc7b9b127af71d0b8cadab'
+  /01_wallet_rpc/bitcoin/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid '831e6152963c320b973dcbda7e0255f28ee79003'
+    oldFile: !uuid '8202deb067182a7201c810ec1005e5bac7a6ae96'
+  /01_wallet_rpc/bitcoin/src/main/java/com/bizzan/bc/wallet/component/BitcoinWatcher.java:
+    newFile: !uuid 'de0b6cb69ff108f2805ed8cc41ba4800855ecad5'
+    oldFile: !uuid '20ef5b9f0a5994f0114cb04234bd8e46d7d77a75'
+  /01_wallet_rpc/bitcoin/src/main/resources:
+    newFile: !uuid '5b649d03c42d824e6cee7b3311c0042881a6509b'
+    oldFile: !uuid '2eae9914a017505fe72a565d7bb90ee9b43a8e3a'
+  /01_wallet_rpc/bitcoin/src/main/resources/application.properties:
+    newFile: !uuid 'e3e0abd69172f3ff2f13ab336d8a59954774fea6'
+    oldFile: !uuid '8de1f33c4868245b5a4e28cd9f633a6a9d813774'
+  /01_wallet_rpc/bitcoin/src/main/resources/logback-spring.xml:
+    newFile: !uuid 'f353948466c13ca99648346603668e6d33b2e62f'
+    oldFile: null
+  /01_wallet_rpc/bsv:
+    newFile: !uuid '0af710d82d2c0dae65f925c0fa31da6e5e42efbd'
+    oldFile: !uuid '187a556113cf016190662d988269078ea7d586e9'
+  /01_wallet_rpc/bsv/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/bsv/pom.xml:
+    newFile: !uuid '01777a67ab269a528477a22db22c93a53e67d21d'
+    oldFile: !uuid 'f2c88de5b543e8d8f26aa294096049b348414bce'
+  /01_wallet_rpc/bsv/src:
+    newFile: !uuid '6efe509b51142715db1fc54079c2a2fd0df83fd2'
+    oldFile: !uuid 'b512bc1f61e4e7c3c25a34cc98156c62e07f1f46'
+  /01_wallet_rpc/bsv/src/main:
+    newFile: !uuid '8de7e517a074808377f49d728ab12e85a777af06'
+    oldFile: !uuid '0e0f9e018cfb1f7e9423428902f6f287aed48159'
+  /01_wallet_rpc/bsv/src/main/java:
+    newFile: !uuid '8ffea685d0e87f54d377e1461958b86e568d0f81'
+    oldFile: !uuid '9b2b80682f3508dc8795fa0d776e78eb9f5003c1'
+  /01_wallet_rpc/bsv/src/main/java/com:
+    newFile: !uuid 'ab36248642a06fe00929308f940a57ff7c9b8784'
+    oldFile: !uuid 'b05ac34931528084b139247e75d556fbb2165e27'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan:
+    newFile: !uuid 'ae3ef23b3247feca2bf4fb2655c6cff9e4f0b60c'
+    oldFile: !uuid '8692084c9a72cce00140366710b6798d5a038a09'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc:
+    newFile: !uuid '9015dd6368dc48b2e7de923b652ada2a5a23228e'
+    oldFile: !uuid '2966be5924f885b6b1467ebc53aade31680491da'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid '2976441deb0dea541051286f90f419ca26543286'
+    oldFile: !uuid '3ffed14307322ca78e6c44c4b6b163dc6e2ffe2e'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid '035a93cdeaabeab0895de4b5a1de7d12826ec11e'
+    oldFile: !uuid '564867e5171a8115e74ff1934d7e602343ba3e3d'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/component/Watcher.java:
+    newFile: !uuid '9d5ab94d00352e69b45437a494d552a6c170cb0b'
+    oldFile: !uuid '935f49e364081d539661793a4dd4ab315052ec93'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid 'f46de7eaabd58e92787a118f7a2d108304165544'
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: !uuid 'f18a0e0cbd962381af09f0d97ff87fbee318854b'
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: !uuid 'bdb38de4b84816953e3279b8738021b021e2b809'
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid 'afbe6c6bc53569dd1f59ef682d3b66973acb04c2'
+    oldFile: !uuid 'cc201d6dcbfe37cdf604f9f07413d66ef413b52f'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid '35862b20267231ce89936756d5bdadb081594919'
+    oldFile: !uuid 'bf1b9854511463a2858471976539f97cecb75715'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid 'f2a529111c00e34911e256219194b944469bf65d'
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: !uuid '96fc6467a9542bce3d9e2a8783a1cd63d944fb44'
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '7e68d6b05d03fe9b3b7a256fce778a5468533830'
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid 'ae142ffe1015f3188542ea71707c8598f9031a98'
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: !uuid '48e8b944f8acad076ce33c2b8459e2d29c8ead7a'
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: !uuid '688ca75d2771f4b2da2e92baf7301aea27d02fab'
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/bsv/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: !uuid 'c2dd7b265ccc4fdbe952fb0387dc4977e6506af8'
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/bsv/src/main/resources:
+    newFile: !uuid '50b012aea3a6b1a7df2b8365763c06f86636f2db'
+    oldFile: !uuid 'f32d3549db1f6dd9a5460a3c50faf1b6f3a74195'
+  /01_wallet_rpc/bsv/src/main/resources/application.properties:
+    newFile: !uuid 'f0c6a2fcebbc46a8f0734f64fd77c27f5770f30f'
+    oldFile: !uuid 'f65defc66fb9ce201c68f6b797e1053b54f529b0'
+  /01_wallet_rpc/bsv/src/main/resources/logback-spring.xml:
+    newFile: !uuid 'f136e3d3f35aabca297849487e1d97aae2535846'
+    oldFile: null
+  /01_wallet_rpc/btm:
+    newFile: null
+    oldFile: !uuid '67d4e77ef71501f2dab337a7fc4735c074f65436'
+  /01_wallet_rpc/btm/lib:
+    newFile: null
+    oldFile: !uuid 'd163eb8f65ec642a3b8bc9f699d476ee36df3414'
+  /01_wallet_rpc/btm/lib/bitcoin-rpc-1.2.0.jar:
+    newFile: null
+    oldFile: !uuid '5ddd8cb483def29d7e41d3601762a4499284aa06'
+  /01_wallet_rpc/btm/pom.xml:
+    newFile: null
+    oldFile: !uuid '3f0fe453f6f4491b7acb4f59608058a145a4615f'
+  /01_wallet_rpc/btm/src:
+    newFile: null
+    oldFile: !uuid '3170ec6da78c30479fb8228872632d3dea68d098'
+  /01_wallet_rpc/btm/src/main:
+    newFile: null
+    oldFile: !uuid '34f563518a397b61b1c6d3ad5f6e469d8e755da4'
+  /01_wallet_rpc/btm/src/main/java:
+    newFile: null
+    oldFile: !uuid '1fdbd6e0ec6ca549d799d7f2c1c15192b75ac35c'
+  /01_wallet_rpc/btm/src/main/java/com:
+    newFile: null
+    oldFile: !uuid '4b0d3a65397efc97e4bd2f79e309d8aee1bec132'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan:
+    newFile: null
+    oldFile: !uuid '1366ad092523e03dc0af602ce6f74d549cbf858d'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc:
+    newFile: null
+    oldFile: !uuid 'e6c1838162acddc9f47ccde7fadace4d3d9cff88'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet:
+    newFile: null
+    oldFile: !uuid 'cc71c9657db9d7c4095c2adc42713a78147ef1f2'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/WalletRpcApplication.java:
+    newFile: null
+    oldFile: !uuid 'a11e46b9a0f1b00b1d7d19675a7f816825d171f7'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: null
+    oldFile: !uuid 'bb1ce4cb688cfdb54c54ef15ed970a8df91689aa'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/component/Watcher.java:
+    newFile: null
+    oldFile: !uuid 'b91c42c6c53af47c3c61d401e3702f1dc332c3bd'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: null
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: null
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/config/KafkaConfiguration.java:
+    newFile: null
+    oldFile: !uuid '97c0a34c2f0d340af06fd5d6e3e988560ce8675d'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: null
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: null
+    oldFile: !uuid 'c6a8776b9ec7b2af7b3a575eed01ee05e91d8bc2'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: null
+    oldFile: !uuid '16106a79fb86f4e8c5c8b0242c3373281e7181fe'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/converter:
+    newFile: null
+    oldFile: !uuid '851127f563a518e1c974c49b1a4e40f5da67cec7'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/converter/BigDecimalToDecimal128Converter.java:
+    newFile: null
+    oldFile: !uuid '52a4bf6ad91c12970d3b27edcc8e4024893b981b'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/converter/Decimal128ToBigDecimalConverter.java:
+    newFile: null
+    oldFile: !uuid '5dcb95a0b24445faed12c96a6869828e101ffe9f'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity:
+    newFile: null
+    oldFile: !uuid 'd0256a855173ceed479052705b5dfd876ee49291'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/Account.java:
+    newFile: null
+    oldFile: !uuid '4688b07fdc952c31547364cae75381126f3415ef'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/BalanceSum.java:
+    newFile: null
+    oldFile: !uuid 'b00684ddfa690be391a2fe4a3c90580e1f3f33d7'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/Coin.java:
+    newFile: null
+    oldFile: !uuid '7a76629b781fb668c093e424a3ba11903c3b94cb'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/Deposit.java:
+    newFile: null
+    oldFile: !uuid 'b8183b09d63626dbac7283825ca1fb6ceeadee09'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/WatcherLog.java:
+    newFile: null
+    oldFile: !uuid 'a667202b31adc14b65bd20d3d22d3c619a4ad462'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/entity/WatcherSetting.java:
+    newFile: null
+    oldFile: !uuid 'a0233bde3d1568f38bb1881b8a4d7faff74e313a'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: null
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: null
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: null
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: null
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: null
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: null
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: null
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/util:
+    newFile: null
+    oldFile: !uuid '1538cf71df4fea5e21ef18a4262bb4f74cab17dd'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/util/ClientUtils.java:
+    newFile: null
+    oldFile: !uuid 'a422bef21f78be1e4caf892944aafece6782997e'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/util/HttpClientUtil.java:
+    newFile: null
+    oldFile: !uuid 'd046675bb3569a6ba5e0d31fe99d0325241ea8a1'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/util/MessageResult.java:
+    newFile: null
+    oldFile: !uuid '9339fe614a2947a6164ccae086e14798fa5df2a5'
+  /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/util/SSLClient.java:
+    newFile: null
+    oldFile: !uuid '42736ce75bd695a6a02e42f81b8c79fc4cfa0fce'
+  /01_wallet_rpc/btm/src/main/resources:
+    newFile: null
+    oldFile: !uuid '34adaee04d2bec9a11237cdb8f0b713e13752c88'
+  /01_wallet_rpc/btm/src/main/resources/application.properties:
+    newFile: null
+    oldFile: !uuid '7ed6f878a8c6e262211c448f5530077748761041'
+  /01_wallet_rpc/btm/src/test:
+    newFile: null
+    oldFile: !uuid 'e30725322da9bea12c4d6bd6340fba2e4b7f99b9'
+  /01_wallet_rpc/btm/src/test/java:
+    newFile: null
+    oldFile: !uuid 'c0e8ddcf2185115e3e4f7b1429ba5ade4667f7d2'
+  /01_wallet_rpc/btm/src/test/java/SimpleTest.java:
+    newFile: null
+    oldFile: !uuid 'c58acce6850b2a50ebe4a991e3dd42877f7a9910'
+  /01_wallet_rpc/ect:
+    newFile: null
+    oldFile: !uuid '6d65c802a2b7507bdbaf4b3fb1ee9df205d660a3'
+  /01_wallet_rpc/ect/lib:
+    newFile: null
+    oldFile: !uuid 'd163eb8f65ec642a3b8bc9f699d476ee36df3414'
+  /01_wallet_rpc/ect/lib/bitcoin-rpc-1.2.0.jar:
+    newFile: null
+    oldFile: !uuid '5ddd8cb483def29d7e41d3601762a4499284aa06'
+  /01_wallet_rpc/ect/pom.xml:
+    newFile: null
+    oldFile: !uuid '61bb9c388c9c3c10777004bdc8744ee520341ea3'
+  /01_wallet_rpc/ect/src:
+    newFile: null
+    oldFile: !uuid 'd26ae68cfc90b0f57724bf73d8fdf97b544cc89e'
+  /01_wallet_rpc/ect/src/main:
+    newFile: null
+    oldFile: !uuid '40a31b65918e7e49f26aad05177782258c1f6fb1'
+  /01_wallet_rpc/ect/src/main/java:
+    newFile: null
+    oldFile: !uuid '9f73c57d9072ee2f2ec02605f733abf89a02b0bf'
+  /01_wallet_rpc/ect/src/main/java/com:
+    newFile: null
+    oldFile: !uuid 'a49cfee5dd8c97925fdf3164345ecc081e511c48'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan:
+    newFile: null
+    oldFile: !uuid 'd32ebfdfef0f6ee4dca257b342b4ea725e215224'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc:
+    newFile: null
+    oldFile: !uuid 'd24829231c0415920ae77e47b28b1920e582e1a4'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet:
+    newFile: null
+    oldFile: !uuid '19c218a0e05a59a37a3a19c748b9a7f6151b4611'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/EctApplication.java:
+    newFile: null
+    oldFile: !uuid 'd210745927a643956c94af8688c3bb10163db246'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: null
+    oldFile: !uuid 'e2306bf1b6b8e36bb2a68f7a0292d5ba78c4e483'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/component/EctApi.java:
+    newFile: null
+    oldFile: !uuid '20f236734048eb9cf3b7cfa109e07236724b598f'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/component/EctWatcher.java:
+    newFile: null
+    oldFile: !uuid '2cf752685f7e9a1f4310630c63a4e70dbdd66aa5'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: null
+    oldFile: !uuid 'c6c26b22008dc50eb5d5294a226591c229b90099'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: null
+    oldFile: !uuid '7168491cbf7b4ab55c3bc32bea6708273c419f3a'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/util:
+    newFile: null
+    oldFile: !uuid 'f3ec36bacdc8dfd9923f5d8e22dbaec20804fd61'
+  /01_wallet_rpc/ect/src/main/java/com/bizzan/bc/wallet/util/Convert.java:
+    newFile: null
+    oldFile: !uuid 'a6d0c0813c1c9c6dfc32f7ce505f2f93c0b3433c'
+  /01_wallet_rpc/ect/src/main/resources:
+    newFile: null
+    oldFile: !uuid '38671992c50b7bc8cf95823e690a474f8a6e92f5'
+  /01_wallet_rpc/ect/src/main/resources/application.properties:
+    newFile: null
+    oldFile: !uuid '8c87d246a6786a5631a1d683c1a0e80d8d737f93'
+  /01_wallet_rpc/eos:
+    newFile: !uuid '376293787d37c10ed15ff379d77734b85b13b767'
+    oldFile: !uuid '54e8d641cb3b0d0a8459d983b674569291960e6a'
+  /01_wallet_rpc/eos/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/eos/pom.xml:
+    newFile: !uuid 'd1bb68d5e0e55c6d3a96c5867bdf43b26cdf6d9f'
+    oldFile: !uuid 'ab0daf23400ca1c6cea99fbbdb6b1ac9c4547b5c'
+  /01_wallet_rpc/eos/src:
+    newFile: !uuid 'cbfb80e17e0854e8faaffcede2bab18423331277'
+    oldFile: !uuid '6f37630eb20d0985b52bf62bbe5b285b58555ae6'
+  /01_wallet_rpc/eos/src/main:
+    newFile: !uuid '6d808d604283b4de3abdb838d72905eb774f1253'
+    oldFile: !uuid '55d7911904e505b74ca8f2a2ebe552b1caa0706c'
+  /01_wallet_rpc/eos/src/main/java:
+    newFile: !uuid '6e4393551d6bc7f2ff3480c0e326a54daed96175'
+    oldFile: !uuid '19a0abf78748d8965130bc8d7a94242d066a724f'
+  /01_wallet_rpc/eos/src/main/java/com:
+    newFile: !uuid '000f7791a1416f4a9a387d76852a29e1e9357c87'
+    oldFile: !uuid '48e0a4dd66863c73d487e1f45f5c8f01ea52f81c'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan:
+    newFile: !uuid '919586a157835d2e77fe6a3be43487843cef8103'
+    oldFile: !uuid 'ed463f0be93804d4ed71b2727cd74bd13e03c553'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc:
+    newFile: !uuid '48ef6d2f544a6b412275d455de3e8287c5415b78'
+    oldFile: !uuid 'd7000e1851e810d5e90ccc81b6332885c9f11217'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'e4bd310c5a7fc771f453980860c177b16893a3fe'
+    oldFile: !uuid 'be577d69f547a81aefcbc82ca38e5fb859bb195e'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid 'f46de7eaabd58e92787a118f7a2d108304165544'
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: !uuid 'f18a0e0cbd962381af09f0d97ff87fbee318854b'
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: !uuid 'bdb38de4b84816953e3279b8738021b021e2b809'
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '47d15c07c967fa67f88ea8e1d1964a31e48f1c82'
+    oldFile: !uuid 'efcfbf0cfa4b9f551821480aa6147ac9f5dca29e'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid 'e07693d25dccde1cc4c41d8a7bbcf98fc9146ca4'
+    oldFile: !uuid '891ff9f6487b955e92a74d385304a7028b165c97'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid 'f2a529111c00e34911e256219194b944469bf65d'
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: !uuid '96fc6467a9542bce3d9e2a8783a1cd63d944fb44'
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '7e68d6b05d03fe9b3b7a256fce778a5468533830'
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid 'ae142ffe1015f3188542ea71707c8598f9031a98'
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: !uuid '48e8b944f8acad076ce33c2b8459e2d29c8ead7a'
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: !uuid '688ca75d2771f4b2da2e92baf7301aea27d02fab'
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/eos/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: !uuid 'c2dd7b265ccc4fdbe952fb0387dc4977e6506af8'
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/eos/src/main/resources:
+    newFile: !uuid '279c4ce986ff11093e021b2456d587a91bf922a6'
+    oldFile: !uuid '3d42550d5e602d2dae5254f0c20eb71278213fc2'
+  /01_wallet_rpc/eos/src/main/resources/application.properties:
+    newFile: !uuid '304f25f6492a96806e147c7524746b9bf8644b6f'
+    oldFile: !uuid '675c5e418339a278b74acf841cb314a79927d4ed'
+  /01_wallet_rpc/eos/src/main/resources/logback-spring.xml:
+    newFile: !uuid '8b08fd93b2213c26e67a1610937119688b114609'
+    oldFile: null
+  /01_wallet_rpc/erc-eusdt:
+    newFile: !uuid 'd68a4ad0bbf346f0293808af52fae658de55bd8f'
+    oldFile: !uuid 'cb43feae4fba4c300110713e88906ac7ca83272b'
+  /01_wallet_rpc/erc-eusdt/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/erc-eusdt/pom.xml:
+    newFile: !uuid '72318089800467f9837319ea623205ddbad60d38'
+    oldFile: !uuid '9196893b5ce3aa7cce2a3299ca915599c7767c99'
+  /01_wallet_rpc/erc-eusdt/src:
+    newFile: !uuid '357d56048394b1902e31c72ca5b7606062e84a20'
+    oldFile: !uuid 'be1280de97ccbb19d862f97a7124a16a63fe500e'
+  /01_wallet_rpc/erc-eusdt/src/main:
+    newFile: !uuid '958b00e15f9742dc65d3973418a3c764ecc2e6bb'
+    oldFile: !uuid 'ce92d88524cd62392edaf087c966049fac4fd65f'
+  /01_wallet_rpc/erc-eusdt/src/main/java:
+    newFile: !uuid '5176945f86dd1988d192f59cddff3159cc05d20a'
+    oldFile: !uuid '1c57320b76304a4ee52ea6caef7f0ff95bb5e379'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com:
+    newFile: !uuid '5a591baaf5bdeeee0a64e32e7292987643817404'
+    oldFile: !uuid 'a198287b84b05545de3792db7f037183951cbfc4'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan:
+    newFile: !uuid '79a35e84fafe70bcc42e6c45c0debf342e0aa92b'
+    oldFile: !uuid '557d9e59fc2d034a9cac1cde26d0552664334e2a'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc:
+    newFile: !uuid 'ecea3a7163d78f2b07e207f51efa9615bd8b3088'
+    oldFile: !uuid 'e5018f99d23624623c376940a6a3ff24c269c8b3'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid '58a491546454069d0f70fd0a1090b11a724bc728'
+    oldFile: !uuid 'fc42c8ba8193fe4d6e5cfbc4caffbd0e02133263'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid '19ea498c100235ee422664759490a023a15535df'
+    oldFile: !uuid 'b37cc5c8da9508fa3e7a91b88549fb422cf37010'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/component/TokenWatcher.java:
+    newFile: !uuid '93b0599f5821587a841a9de38c71fa55c52ec935'
+    oldFile: !uuid 'fe31bcd48851499f645c0a72528295e09fa42c9b'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid 'f5a70eae153280912031eaae9b896466e7268276'
+    oldFile: !uuid '0f7f0a1467f8c943c2f6e17738e9685a9401b22f'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid '6b827fea23530fa3b6fefc38a11c6252b5ff7027'
+    oldFile: !uuid '1cab1d9052b5aa5d7bba41df1fae755e5064be64'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/job:
+    newFile: !uuid '3466f04dd437c335df5d19e93d9a0c291a79bd98'
+    oldFile: !uuid '1e463080e6e33a3db2e30221aaf6cdcf1eca3583'
+  /01_wallet_rpc/erc-eusdt/src/main/java/com/bizzan/bc/wallet/job/CoinCollectJob.java:
+    newFile: !uuid '6305add5cf8cf8303fd7c9be49bbd91da2871aaa'
+    oldFile: !uuid 'c6f9d5f3a3a7b761637a18dc41dc32f072690d03'
+  /01_wallet_rpc/erc-eusdt/src/main/resources:
+    newFile: !uuid '86d7914fbe5d205e7851a5e12f0b5d1a67e98d0b'
+    oldFile: !uuid '9f4ebcbe8c456520629fe9fecf28ec110fab42e6'
+  /01_wallet_rpc/erc-eusdt/src/main/resources/application.properties:
+    newFile: !uuid '5393cf25bffcb71fadc1568989b38327af8c25dd'
+    oldFile: !uuid '04ce38aa4224be0d8109b9b8a979ac21c224ea46'
+  /01_wallet_rpc/erc-eusdt/src/main/resources/logback-spring.xml:
+    newFile: !uuid '7f5dd6685dd6c65a1141ca3f7214171f652f5953'
+    oldFile: !uuid '0bd3439084196fc9cb2e947bface02fa7f5c0020'
+  /01_wallet_rpc/erc-token:
+    newFile: !uuid 'c72adc25fbf5af5d029c8efdfb0d2ca81020154b'
+    oldFile: !uuid 'a2c1d257b4dcd0c8f3d2316a5f944941b0ec4335'
+  /01_wallet_rpc/erc-token/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/erc-token/pom.xml:
+    newFile: !uuid 'da4cf999b2a28c32f60195908f0ae6dad93a181f'
+    oldFile: !uuid 'bdf0868bae1f21cd69c7080083a2da4da6e928e4'
+  /01_wallet_rpc/erc-token/src:
+    newFile: !uuid '27c38994b1f42ccb168d0f97171ef71e6f0280ed'
+    oldFile: !uuid 'e7e663847b66f5839a6a880ff10f4c9304141a74'
+  /01_wallet_rpc/erc-token/src/main:
+    newFile: !uuid '74575962d023c7ab2bdb900e85f8c52e827ba37f'
+    oldFile: !uuid '4c2e23a37d3453bf54604ae20df2a4b8987a8c27'
+  /01_wallet_rpc/erc-token/src/main/java:
+    newFile: !uuid '6fd6b6dd89a87825b107543a5088060d3dc563c3'
+    oldFile: !uuid '93e3463de5b39f93646f3bc1938a79dfbb589a31'
+  /01_wallet_rpc/erc-token/src/main/java/com:
+    newFile: !uuid '8a9d25753f2a6f0f3de96d760af2601543b19d49'
+    oldFile: !uuid 'c1b5ab249f6ab073e64909909e470465b23ab7a0'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan:
+    newFile: !uuid '1637c007f84c3ddab59c5fa39705bf5447a1b58a'
+    oldFile: !uuid 'b5e3bec4c87c6c09d72f2363625b4698481a0e47'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc:
+    newFile: !uuid 'fcee33c7387044d48d87722d5ae13cc02e2a24dd'
+    oldFile: !uuid 'cf9d041ba607dccff571e35e2504e88aeccf63ef'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'bd93297660bcc1480ed6fb09954843552dc9d36a'
+    oldFile: !uuid '1e3662cefbc2a4b98b2ea483d07db0b6e0ac576b'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid 'fd066c20f059be1634b527c675c2974987a11e9b'
+    oldFile: !uuid '5dc35b82bb10536afbb4253bd80fa2592bec2a30'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/component/TokenWatcher.java:
+    newFile: !uuid '63d1031fdbe4835ec8108bf672d697740365c759'
+    oldFile: !uuid '543ca1db569bd2c9d70ae4898332827063133c81'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '5000e542fda18e273d82a633c4d288927b93b70a'
+    oldFile: !uuid '0f7f0a1467f8c943c2f6e17738e9685a9401b22f'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid 'cca534f4e3d12b598a3fa777f10ba3ee7a708d25'
+    oldFile: !uuid '1cab1d9052b5aa5d7bba41df1fae755e5064be64'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/job:
+    newFile: !uuid '155e13f7542714042d2160aef09216f316a2af00'
+    oldFile: !uuid '2014f3e626994d79ec62e4856f68faddb3f0f15e'
+  /01_wallet_rpc/erc-token/src/main/java/com/bizzan/bc/wallet/job/CoinCollectJob.java:
+    newFile: !uuid 'c739bcc99ecf73157a9127ba41afa9cb07a41e3b'
+    oldFile: !uuid 'b0cb9fb81859ea1fa0d98ec288f23a4dff67c7f5'
+  /01_wallet_rpc/erc-token/src/main/resources:
+    newFile: !uuid 'fd68b5d47c508344c322a8047647e5c5d87d83c2'
+    oldFile: !uuid 'd8d6989e416f5a0acba0907202c3a5f68bf4b654'
+  /01_wallet_rpc/erc-token/src/main/resources/application.properties:
+    newFile: !uuid '5393cf25bffcb71fadc1568989b38327af8c25dd'
+    oldFile: !uuid '3738e4d7ce9ecc8491be1e0593d2b8b0b21aee07'
+  /01_wallet_rpc/erc-token/src/main/resources/logback-spring.xml:
+    newFile: !uuid 'd37b6f0e040a3a50a93a2b9ed636649a0ef6a1bb'
+    oldFile: !uuid '0bd3439084196fc9cb2e947bface02fa7f5c0020'
+  /01_wallet_rpc/eth:
+    newFile: !uuid '883ddbbf5b8a597d676ceb05b7d6f6374e47cef5'
+    oldFile: !uuid 'bf967a9def3b2a935832a2fb82c64bf0f8bac39a'
+  /01_wallet_rpc/eth-support:
+    newFile: !uuid '1cbb089db1e0b3dfc74bb843e72d83024b519e8e'
+    oldFile: !uuid 'cb8378e737e127737b73abeeda2d9486e2911d22'
+  /01_wallet_rpc/eth-support/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/eth-support/pom.xml:
+    newFile: !uuid '6399d5a905d8fcbac187e21c8d343d4c4f9e3740'
+    oldFile: !uuid 'd68756b25c7870024f3640764243e075ece97eae'
+  /01_wallet_rpc/eth-support/src:
+    newFile: !uuid 'be9f2d8e803decc032728f6387eabd4b0b0a4769'
+    oldFile: !uuid '679bbd6f5fbdb87d83afa353f1359654f6673c47'
+  /01_wallet_rpc/eth-support/src/main:
+    newFile: !uuid 'ecf1ed793a7c2883f336d7413e02a9e20c0d839c'
+    oldFile: !uuid 'ace549a91be6df00e5c7ef56830ef100b190753c'
+  /01_wallet_rpc/eth-support/src/main/java:
+    newFile: !uuid '68be3752bd75d646eddf9613901dd7608179c589'
+    oldFile: !uuid '4440060411b6ab12478205b0c20d1e19ac7bf0d9'
+  /01_wallet_rpc/eth-support/src/main/java/com:
+    newFile: !uuid '62027b8b4af810f8404d3e97046d7e1d2c9af4bb'
+    oldFile: !uuid 'e668fafb23afa40ef8b78958d818ff62b09d31c6'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan:
+    newFile: !uuid '5df17da2941c426cbb8cdcaf3f36f6f85a78fc85'
+    oldFile: !uuid 'd251e4fa75bee5e37d232ae73e6fc6acb7329cb6'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc:
+    newFile: !uuid '32d1d6f275bf69ceba310ee87a0cef6f6fbc2e4a'
+    oldFile: !uuid '12eaebaffafc10f967b1fe64efccc1a79e8bf28e'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'eafcaf594ab7509e8236f7e1c27d28e554bcb57b'
+    oldFile: !uuid '53beb74035b9ff03cef46a948363f970430c3183'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid '2eb6f477e5f9a152a06f333f04604198850a90ea'
+    oldFile: !uuid '05e2152c264e9f1983a3bce82dc195ae129cc297'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet/config/EthConfig.java:
+    newFile: !uuid '2ccb0f91a7cde70161a66020d4f86f347b6bdff0'
+    oldFile: !uuid '5c7f8cfd7690e92529ffa0ba8f9d5aba00996254'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid '974c265f50a9cc4d11f98c60820870b5f4ae890d'
+    oldFile: !uuid 'b5b0fc30faff7b5d6fe0d0dc9ec1724873294084'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet/service/EthService.java:
+    newFile: !uuid '5bd9682329c05c194da3d255732a42dae5b2164f'
+    oldFile: !uuid '78ef3ddbc4f1da326d38db1dd38337b5752ff190'
+  /01_wallet_rpc/eth-support/src/main/java/com/bizzan/bc/wallet/service/PaymentHandler.java:
+    newFile: !uuid '1ffdbfacbd986acd609a4e73d6b9332832304d47'
+    oldFile: !uuid 'a656700d4bbcf6180b71f911658adfd95fb43d51'
+  /01_wallet_rpc/eth/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/eth/pom.xml:
+    newFile: !uuid 'aa9c85541d1e0fdf13627638e0040b410327fed6'
+    oldFile: !uuid '6abc467cfdaae2d9b518f6158edc233ad14cf240'
+  /01_wallet_rpc/eth/src:
+    newFile: !uuid '4be2ba0e619d1acb65cf99a1fb367f34d389aac9'
+    oldFile: !uuid 'a1707b74e59346fd5cdb46eefc67e4c303d622a7'
+  /01_wallet_rpc/eth/src/main:
+    newFile: !uuid 'cfc97518157c6b58d61590deede072a344aa3647'
+    oldFile: !uuid '7831bdb48775362c82ea1fa1b5c403ac05f381fb'
+  /01_wallet_rpc/eth/src/main/java:
+    newFile: !uuid '025ce07477cc865d469da3652ca59d442a62366c'
+    oldFile: !uuid 'f401337ea056527c372852368fe9a364091d055c'
+  /01_wallet_rpc/eth/src/main/java/com:
+    newFile: !uuid 'f9fc9ae84ee49080940fe87afe3325f9af5adda1'
+    oldFile: !uuid 'e85cc80180d60ee916175e1ac6583c13f2208de9'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan:
+    newFile: !uuid '438dc848eb06d5ac88fb4242f983d3f74ccc7bfa'
+    oldFile: !uuid '5402a5911f8df4fdd5cf6cfee23f3533419c4120'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc:
+    newFile: !uuid 'b715d974e681124ef53ad6ecd61b8cf294a62a1c'
+    oldFile: !uuid 'd460481da45e98d804621f35685d6f44451de209'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'f36441fc1b800fefae6dd8519cd03dce5ed6f73e'
+    oldFile: !uuid '5d04fe3abcfceed764576715172117bd539ae8f2'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid 'dc921eaf0b40d790ac7184559ac03afcfddfb138'
+    oldFile: !uuid '8e587456ef5410cf808df26558edbed132291bb6'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/component/EthWatcher.java:
+    newFile: !uuid '70af2dec93fd82131c3e9b52e1c45d1b6ecc091d'
+    oldFile: !uuid 'facf3f185a9ab797e4c65c05d3add2d5c2397f75'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '07e1896dbfe074914ba8c9bf0dff925aa112bdf2'
+    oldFile: !uuid '9417304bcd4629ac1c4f60094116a68b58418599'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid '87b560b76b2c084a59ae7b78de608cb05aec7a09'
+    oldFile: !uuid 'e723c5920c181c5d9310a60979dfee5fe02f9616'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/job:
+    newFile: !uuid 'b62cdd3f347405bd634e6118bcb1e2a960f7fffe'
+    oldFile: !uuid 'b56a28820e4558121339b376799063d50e687d97'
+  /01_wallet_rpc/eth/src/main/java/com/bizzan/bc/wallet/job/CoinCollectJob.java:
+    newFile: !uuid '68ce2eaae42355e54a109aec2f360156259ddc82'
+    oldFile: !uuid '6fa1321265e27da9d72d4567ab31cbee42d58e68'
+  /01_wallet_rpc/eth/src/main/resources:
+    newFile: !uuid 'bd49104d44dcef529424d247d35714a18521e9bb'
+    oldFile: !uuid 'e7b12fa968c17b5405c5aec39161ba49e2c1acfe'
+  /01_wallet_rpc/eth/src/main/resources/application.properties:
+    newFile: !uuid '8a42fad3dd7c9e5bc398472d176c88ecb0d1294f'
+    oldFile: !uuid '23bb2ec64524134f90e319fcfa1384b6e8cd769a'
+  /01_wallet_rpc/eth/src/main/resources/logback-spring.xml:
+    newFile: !uuid 'bf6291902b4ee159698ced7392a1e89afcac1908'
+    oldFile: !uuid '8acc80732745a7e1f29a79aa3e3a235570055c6e'
+  /01_wallet_rpc/eth/src/test:
+    newFile: !uuid '0a56104a51b5532900551ca23fd4b528ae827009'
+    oldFile: !uuid '2fef1d2ba566aba6a632b59e25ab7a56314b933a'
+  /01_wallet_rpc/eth/src/test/java:
+    newFile: !uuid '28216f3df01d84e2e2be51bfbf3c253f52c66804'
+    oldFile: !uuid 'cb7527646b6903a72571bcb84e349d395a0a02be'
+  /01_wallet_rpc/eth/src/test/java/com:
+    newFile: !uuid '3b5b20b30fa26b77acbaad4162730fa2f1216f98'
+    oldFile: !uuid '36c74d132081f0b379aec18c4ac7f022dac57359'
+  /01_wallet_rpc/eth/src/test/java/com/bizzan:
+    newFile: !uuid '93a5cf81037a3236697e1e40f916c6996103f1e3'
+    oldFile: !uuid 'b876432157f90ef5bd41f2567175d6cbf3f361a9'
+  /01_wallet_rpc/eth/src/test/java/com/bizzan/bc:
+    newFile: !uuid 'c56a084930c69bd60f91331beb7028066b22897d'
+    oldFile: !uuid '525b068a6616a2f01335b8935ed7378941636720'
+  /01_wallet_rpc/eth/src/test/java/com/bizzan/bc/wallet:
+    newFile: !uuid '6988c2e818ea93035d69c77842d885748a37a877'
+    oldFile: !uuid 'd7a7f49449f509ed6c922ab98bdb3d1847f60a91'
+  /01_wallet_rpc/eth/src/test/java/com/bizzan/bc/wallet/BaseTest.java:
+    newFile: !uuid '1095ec77768fd9b9d079f425608e105a538513b3'
+    oldFile: !uuid 'a323d4c0910bdd46a2d8ed75e0cab70ee49f194b'
+  /01_wallet_rpc/ltc:
+    newFile: !uuid 'c8e709b83d1340ded787da44ded30e3ace8388b3'
+    oldFile: !uuid '661c699daeb03fb024df4b30f372c0b6f32f7aa6'
+  /01_wallet_rpc/ltc/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/ltc/lib:
+    newFile: !uuid 'bd865686972a6997b3cd4357065ef11876b3e24f'
+    oldFile: !uuid 'bc478d07ae301ca57635f3d1c040c01881ba2bd8'
+  /01_wallet_rpc/ltc/lib/bitcoin-rpc-1.2.0.jar:
+    newFile: !uuid '5ddd8cb483def29d7e41d3601762a4499284aa06'
+    oldFile: null
+  /01_wallet_rpc/ltc/pom.xml:
+    newFile: !uuid 'd50c561ea00f4fc61d1a77fbf870b6b27cef34e0'
+    oldFile: !uuid '8400da5b13d553cdafb3295bb21032ce4a4d00cc'
+  /01_wallet_rpc/ltc/src:
+    newFile: !uuid '59d7687ed9f5fd90727b08ff070ff3e5947a0ed2'
+    oldFile: !uuid 'a6912bb1136cf18276d40cca9dd770b51762f469'
+  /01_wallet_rpc/ltc/src/main:
+    newFile: !uuid 'f7a49fd014ab21ea6a78931a69bca30a35fe9ad0'
+    oldFile: !uuid 'c754773ffd69ace39fb6b1341b88228c3379317b'
+  /01_wallet_rpc/ltc/src/main/java:
+    newFile: !uuid 'e975ccf0c125ac55ec0d398305c9e7373e4a525e'
+    oldFile: !uuid '812ccb9e856935bc3f5cba8735be18d22c46f717'
+  /01_wallet_rpc/ltc/src/main/java/com:
+    newFile: !uuid 'caacd113c44f4e24da73bfa5113a1c07b9a7b366'
+    oldFile: !uuid 'ba53e4fe042013c93bc5353fd870be6f596eaa83'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan:
+    newFile: !uuid '98687419289e1144e7786738f90641116c1b7ee3'
+    oldFile: !uuid '71ba05fc9ab2aa4328e65c1f620e6091ce607e41'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc:
+    newFile: !uuid '5679cc7275ecdbbbf02589011cb74e9bb9926266'
+    oldFile: !uuid '87689f062319fd1ee8cb896d5cd8b43317264c88'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid '9f156b5d647b0b0a27904ed47f17b9066737b78f'
+    oldFile: !uuid '6bcd3f893a093c61bbcebc74180e8ab84aa2e4b2'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid 'f46de7eaabd58e92787a118f7a2d108304165544'
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: !uuid 'f18a0e0cbd962381af09f0d97ff87fbee318854b'
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: !uuid 'bdb38de4b84816953e3279b8738021b021e2b809'
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '3f95178c5767a9837508e879917013a4d7168746'
+    oldFile: !uuid 'f96d8b1db046db97500dba05b3d46f6879afa086'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid '206eebe075242e2fa89ef9c456a92da67f13b9bc'
+    oldFile: !uuid '73ba1dedd4a46f80999b0c12d0f57e9462f8915a'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid 'f2a529111c00e34911e256219194b944469bf65d'
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: !uuid '96fc6467a9542bce3d9e2a8783a1cd63d944fb44'
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '7e68d6b05d03fe9b3b7a256fce778a5468533830'
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid 'ae142ffe1015f3188542ea71707c8598f9031a98'
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: !uuid '48e8b944f8acad076ce33c2b8459e2d29c8ead7a'
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: !uuid '688ca75d2771f4b2da2e92baf7301aea27d02fab'
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/ltc/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: !uuid 'c2dd7b265ccc4fdbe952fb0387dc4977e6506af8'
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/ltc/src/main/resources:
+    newFile: !uuid 'f2f08f53c81305b980563f71dc89d176edec36c3'
+    oldFile: !uuid 'c40b23fde1d8d69406edf46027c98eb184aca4c6'
+  /01_wallet_rpc/ltc/src/main/resources/application.properties:
+    newFile: !uuid 'b3e25d95b995bfa6b99d9366eb93028204c23862'
+    oldFile: !uuid 'f16f695fcf55607628b27507209638b8a3e5474c'
+  /01_wallet_rpc/ltc/src/main/resources/logback-spring.xml:
+    newFile: !uuid '8e3c43276abdb17029289fcf713c8e00b5465276'
+    oldFile: null
+  /01_wallet_rpc/rpc-common:
+    newFile: !uuid '0bd8e7e3b0bcde01daf4221705a7c1d0e6c8743c'
+    oldFile: !uuid 'cc6ec158489a69f2e839ef94795b60dae3398f8c'
+  /01_wallet_rpc/rpc-common/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/rpc-common/pom.xml:
+    newFile: !uuid '1f6257996c011fd9f2d83a425cf6daef35398661'
+    oldFile: !uuid 'cae3a66ec918c68700642182878f388f316fb09c'
+  /01_wallet_rpc/rpc-common/src:
+    newFile: !uuid 'd02935f29bc37e8e6acbcaf827ab1dabf6ac1f8c'
+    oldFile: !uuid '4b4d3ac1b59b19d7ee088bdfb203b97d7af38618'
+  /01_wallet_rpc/rpc-common/src/main:
+    newFile: !uuid 'c26ccaa2dac1b6cb2f17e56df0ff47258c9851f7'
+    oldFile: !uuid 'c58e30766fe1630e4194b6919b745b419df2b51e'
+  /01_wallet_rpc/rpc-common/src/main/java:
+    newFile: !uuid 'beb007135dcd2b30d53b37779cdc6724b4bbf08a'
+    oldFile: !uuid '268f25b01f8c1ed711ab5dafd1ad0a4357fe63e6'
+  /01_wallet_rpc/rpc-common/src/main/java/com:
+    newFile: !uuid 'f6ab660953b2ce0f196f3353769bfdcf9751702e'
+    oldFile: !uuid '0fc929e00168c2d9ce127fcbbd01bab7d08ecea9'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan:
+    newFile: !uuid '2ee885ad60b9468412ff49ff1ca5c5a826d22360'
+    oldFile: !uuid '65a39658a8d8d7d8b9fb69f2e7e283e6703e3592'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc:
+    newFile: !uuid '31aa526f02fac634584e76254cf2b0d70bf7af97'
+    oldFile: !uuid '9af482020f1d27d76921b927d8ca745ca3e377f1'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'bc6a55d72d8f0a02c77128cbd5839bee04b51217'
+    oldFile: !uuid '7c6ffce515bb6941ac7231055fd112828c27afba'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid '8aedd92c7d763e4ba2785bf43bf00f663b2a3926'
+    oldFile: !uuid '49051adea9d0ca8dc1657ee48796fecbaa98ba06'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/component/RpcController.java:
+    newFile: !uuid '86185599ec33f29208acc25790a92ee946c41c32'
+    oldFile: !uuid '4f0f8fda0732455fbf015c6ae2a0cd2456c5995f'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/component/Watcher.java:
+    newFile: !uuid '011ee9a607eda9dad78675b8736a44069956d757'
+    oldFile: null
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid '07d767c1c1beec8d46ad07e9f312761238ea433c'
+    oldFile: !uuid 'ab1e4d3ef1c2dbc88b6859e79bdc14306c2b029a'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: !uuid 'f18a0e0cbd962381af09f0d97ff87fbee318854b'
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/config/ContractConfig.java:
+    newFile: !uuid '04a47665145707c3d6c421093a43565dab1c8802'
+    oldFile: !uuid 'b86cebc6624162d9a2f77a86e19e17360057156d'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: !uuid 'bbc0a18f4f626efe96d49e4c6a11dbbcc510f1ce'
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/entity:
+    newFile: !uuid '4c4e8887840cb418ead6eecaf7e31e902e0dcc40'
+    oldFile: !uuid '50716e0a1cc82ed3b9b6a14e2e98e141ea30e4b0'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/entity/Contract.java:
+    newFile: !uuid '4ea559cd27c22ee77da34683b04311788ad6cdd9'
+    oldFile: !uuid '39d38b6a39d1896d818e0af4a1f26b8c6248c8c6'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid '9c28363e67d69d729279b566ae8a71e5b9dc031a'
+    oldFile: !uuid 'ebaf2b33a146e671cbe428c50f5f8d2049bf5fd2'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: !uuid '3c3f957deb44c4c64273851c42ba9b6b27aa851b'
+    oldFile: !uuid '87226d171ec1f664ed8830c0a374d87e2f2a4deb'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '5014860d81139912d1428e160c59a5e8efd6b9b8'
+    oldFile: !uuid 'ad0f3c2f22b4c450a0433637a08bc1643228a5b7'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: !uuid 'd7575da2dd886d27f69de8d4896393c37b1162a5'
+    oldFile: !uuid '9515ab95172fc0949aff8e5924e6193a5497936c'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: !uuid '48e8b944f8acad076ce33c2b8459e2d29c8ead7a'
+    oldFile: null
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: !uuid '688ca75d2771f4b2da2e92baf7301aea27d02fab'
+    oldFile: null
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: !uuid 'a85293c6b6f9cc35d1913c6cbf532473ac156dc1'
+    oldFile: !uuid 'e31547625b55a0cce45881960e99c41dc8581eef'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/util:
+    newFile: !uuid 'd6b133c33261bab5084d7daa77f219e2c501e6b5'
+    oldFile: !uuid '07f22703c509e36001c2c0b8d69e3394584e5493'
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/util/AccountReplay.java:
+    newFile: !uuid '5071a638790a766da19e1faebd4c119c5ca1d722'
+    oldFile: !uuid '538cc20273e4d3c73f4ea1897cc8cfe46b92e6df'
+  /01_wallet_rpc/usdt:
+    newFile: !uuid '3e1a819cc12cf815fbf4882ef5ff36a8fab08a03'
+    oldFile: !uuid '064c59aeaa31b05f19de13a8b88e7e527c5c2a2b'
+  /01_wallet_rpc/usdt/.gitignore:
+    newFile: !uuid 'd9bf8104ce8a8ee64370d3c2dd07b09b9da4943d'
+    oldFile: null
+  /01_wallet_rpc/usdt/pom.xml:
+    newFile: !uuid '70fa592622df678a53f6daca56c8c3330542ae4f'
+    oldFile: !uuid 'b98717fba4c1a8fbdc688e78d9a7b3fb6e82fc2b'
+  /01_wallet_rpc/usdt/src:
+    newFile: !uuid '1f1067f091b5cfd2bd3e3ab0a892f04530414e3e'
+    oldFile: !uuid '0d9aa6fd75fca62c08a598f1e3bdb615d1cedd93'
+  /01_wallet_rpc/usdt/src/main:
+    newFile: !uuid '6166124bf973d0bc742b6745024d761e873af5ea'
+    oldFile: !uuid 'd2f0c19b997240156a945d88a5f8f3841eb12d57'
+  /01_wallet_rpc/usdt/src/main/java:
+    newFile: !uuid 'c5c228b24782973703944d6a9c2059dc416d43f1'
+    oldFile: !uuid '51699f464e79d67b80647be1e7563c8bc812765b'
+  /01_wallet_rpc/usdt/src/main/java/com:
+    newFile: !uuid '88b8cd381d730b5e2ee4c432e06ec96323ff1080'
+    oldFile: !uuid 'b222991ab59d127b38027c4f6ffda027e8b6365e'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan:
+    newFile: !uuid '1aeddc9a034d4a24a05e07f279f1dc9014aa57f3'
+    oldFile: !uuid 'ac871d33c072abe9899906be38c2da3cb782fe4c'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc:
+    newFile: !uuid '8204132e40ca8c8ea120fc0a2ff7449cdf48aa09'
+    oldFile: !uuid 'da926a76972ec7d22de9db3a2bed0c1e77c7b400'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet:
+    newFile: !uuid 'd9738f96cf3f96e2e6adf4ba3e2f3996f3663e13'
+    oldFile: !uuid '49e828a6994101a993be08715fb515063a1884f6'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: !uuid '694a3aba9576f8828ae38d33f685147f08c6529e'
+    oldFile: !uuid '99c1ebe06f6cc8e702a566a0980267b2d0a5d1c6'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/component/UsdtWatcher.java:
+    newFile: !uuid 'aabc4224641a07e3c0bb4132377a78786b24df4e'
+    oldFile: !uuid 'fe0240ef4d307876b9a8519f522758474596a44e'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: !uuid '9e937074a30fa631a25bdce3907bd16291eb1cbe'
+    oldFile: !uuid '53a0f634ca5cbdb34c08eb9c338cb7570c1cf3ed'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/config/JsonrpcClient.java:
+    newFile: !uuid 'da8133eb3f14088130d350c499567d32a810aa36'
+    oldFile: !uuid 'a79ff94714a562da1648a8b0c7fbd0244d1f8f6c'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/config/RpcClientConfig.java:
+    newFile: !uuid '5178bd061830d29f6aa8744156d6b5e7ebd1c8a3'
+    oldFile: !uuid 'c013fa34623d69839d7694a533253404aa1378f1'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: !uuid '43a892030ce98d34b5deee79e548a15e69733ed3'
+    oldFile: !uuid '64f233e911d98bde5b058a3f41d12aa89d4ef168'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: !uuid 'a2e643c4c243b04a4a16d9ec2a01eb9df9e9d3f0'
+    oldFile: !uuid '3a1bee09aeec5375e78cda78c544021da6ce9308'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: !uuid '073a23e30416af3cf9fe7b7b7e22d32ad30efbc0'
+    oldFile: !uuid '521eca6bcb119e22f04cc1769654bc5aeba723c9'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: !uuid '161066fccc092a58bd54de721b4c2a4c3129e6f3'
+    oldFile: !uuid '9bb47cf2c67e582b1c398c344b7c95596641fe75'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/job:
+    newFile: !uuid 'ad992500964cf337f98ea8497350e14691f0f57f'
+    oldFile: !uuid '1fa59426c8708dec9370bf705bda286bafb932ce'
+  /01_wallet_rpc/usdt/src/main/java/com/bizzan/bc/wallet/job/CoinCollectJob.java:
+    newFile: !uuid '0f69b51835a2e3768bbd255489f9199c8cf4edb4'
+    oldFile: !uuid '15dbd6a09dab6616df6a66c6ae50e24abb2bdb6c'
+  /01_wallet_rpc/usdt/src/main/resources:
+    newFile: !uuid '77c28d07ab0449c2d6e51516d4465b74dd4df38c'
+    oldFile: !uuid 'ba0bdaa0c9f8b28d4448eb0abd1e0174f6172d67'
+  /01_wallet_rpc/usdt/src/main/resources/application.properties:
+    newFile: !uuid 'db3df73b1bbabcde6cc6c6c3e17c1f9d7a6563be'
+    oldFile: !uuid '55c07f84d639a3cd9e98c784dad88995fab490ec'
+  /01_wallet_rpc/usdt/src/main/resources/logback-spring.xml:
+    newFile: !uuid 'caeda8a59f2422693c9fde627dee67f496c76efb'
+    oldFile: !uuid '11a03c0f1d60977d4bb904725235f07271e1a4f0'
+  /01_wallet_rpc/xmr:
+    newFile: null
+    oldFile: !uuid '82a30153b1a9db57711b829248c90a03ff1ede10'
+  /01_wallet_rpc/xmr/lib:
+    newFile: null
+    oldFile: !uuid 'bc478d07ae301ca57635f3d1c040c01881ba2bd8'
+  /01_wallet_rpc/xmr/lib/bitcoinj-core-0.13-alice-SNAPSHOT.jar:
+    newFile: null
+    oldFile: !uuid '75903d1a2ac524ef96a909b2024f40e4ba4d78ae'
+  /01_wallet_rpc/xmr/lib/litecoinj-core-0.15.20190219.jar:
+    newFile: null
+    oldFile: !uuid 'b3e898f99ab31e29adb62c21dae713ec89da33a8'
+  /01_wallet_rpc/xmr/pom.xml:
+    newFile: null
+    oldFile: !uuid '8b0601bc613b9d37f51a3ea5505b50608a754b4f'
+  /01_wallet_rpc/xmr/src:
+    newFile: null
+    oldFile: !uuid 'dc18165fee3e6d648decf7a9f549c62f8f9336d9'
+  /01_wallet_rpc/xmr/src/main:
+    newFile: null
+    oldFile: !uuid '63cbc0eab85e4322b3dabc2d33fc79b2dfc73b80'
+  /01_wallet_rpc/xmr/src/main/java:
+    newFile: null
+    oldFile: !uuid '397f35678d6b2c2389b5c7fc2bdb634f2b1b6ebd'
+  /01_wallet_rpc/xmr/src/main/java/com:
+    newFile: null
+    oldFile: !uuid '593835e4a8f9d11f4c592552d8ee62b11c74b6e4'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan:
+    newFile: null
+    oldFile: !uuid '5f322a8c13c8c898f73fb4bb56136335fbdcaa35'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc:
+    newFile: null
+    oldFile: !uuid '710dbb0cedb27ebf1fc323d2d097adec8fa0a0cb'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet:
+    newFile: null
+    oldFile: !uuid '06234868e465fd67b591ac39c8599be42ccaa62d'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/WalletRpcApplication.java:
+    newFile: null
+    oldFile: !uuid 'a11e46b9a0f1b00b1d7d19675a7f816825d171f7'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/component:
+    newFile: null
+    oldFile: !uuid '3dd952f388a6722cbafd779bce2470100a2351db'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/component/Watcher.java:
+    newFile: null
+    oldFile: !uuid '7daff17d7e95f46a60bf356ce7abb50faa0b295a'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/config:
+    newFile: null
+    oldFile: !uuid 'ca01f4c25e06746b8ddaa6664f2ab3edcbae7f5f'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/config/CoinConfig.java:
+    newFile: null
+    oldFile: !uuid '2271ce88ad873b27ec7a2c6f3f5f4790c504c62b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/config/KafkaConfiguration.java:
+    newFile: null
+    oldFile: !uuid '97c0a34c2f0d340af06fd5d6e3e988560ce8675d'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/config/MongodbConfig.java:
+    newFile: null
+    oldFile: !uuid '0c9bd546e9d420c609cb6681f4ba73df2e5f430a'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/controller:
+    newFile: null
+    oldFile: !uuid 'b6d35226d4696325c9dd4a5cbf2067ada6d5596b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/controller/WalletController.java:
+    newFile: null
+    oldFile: !uuid '878bd687cea23fd4ba8878c67ce428a0c491435e'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/converter:
+    newFile: null
+    oldFile: !uuid '851127f563a518e1c974c49b1a4e40f5da67cec7'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/converter/BigDecimalToDecimal128Converter.java:
+    newFile: null
+    oldFile: !uuid '52a4bf6ad91c12970d3b27edcc8e4024893b981b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/converter/Decimal128ToBigDecimalConverter.java:
+    newFile: null
+    oldFile: !uuid '5dcb95a0b24445faed12c96a6869828e101ffe9f'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity:
+    newFile: null
+    oldFile: !uuid '5802b179176c86d215f44bc83babe3be2018b3be'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/Account.java:
+    newFile: null
+    oldFile: !uuid '4688b07fdc952c31547364cae75381126f3415ef'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/BalanceSum.java:
+    newFile: null
+    oldFile: !uuid 'b00684ddfa690be391a2fe4a3c90580e1f3f33d7'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/Coin.java:
+    newFile: null
+    oldFile: !uuid '435324bd88d970ff7660c1f4d58d99f1941e8b31'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/Deposit.java:
+    newFile: null
+    oldFile: !uuid 'b8183b09d63626dbac7283825ca1fb6ceeadee09'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/WatcherLog.java:
+    newFile: null
+    oldFile: !uuid 'a667202b31adc14b65bd20d3d22d3c619a4ad462'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/entity/WatcherSetting.java:
+    newFile: null
+    oldFile: !uuid 'a0233bde3d1568f38bb1881b8a4d7faff74e313a'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/event:
+    newFile: null
+    oldFile: !uuid '45af119e6a61f7b27f3567f3205f64a47d7f7227'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/event/ApplicationEvent.java:
+    newFile: null
+    oldFile: !uuid 'ae776eb6f3e4c5c037981a5a6d65c08b19ea7f8b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/event/DepositEvent.java:
+    newFile: null
+    oldFile: !uuid '12833b81db728606b2ee183561bc35b6b4a3e295'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/service:
+    newFile: null
+    oldFile: !uuid '24fa02323d6b50d2cf0ba46b16ff7209d65903f2'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/service/AccountService.java:
+    newFile: null
+    oldFile: !uuid '2c97e0664b66ff525a48151dae057eda4eedb4e9'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/service/DepositService.java:
+    newFile: null
+    oldFile: !uuid 'f2673ec514a37e7bdbbd86683a052e842c7e79eb'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/service/WatcherLogService.java:
+    newFile: null
+    oldFile: !uuid '81abd473e41f1e9cc002083d435dc5fe3b05827b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/util:
+    newFile: null
+    oldFile: !uuid '9dcfc04bb5dd0125708aa79c6cf8ab290f833c8b'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/util/HttpClientUtil.java:
+    newFile: null
+    oldFile: !uuid 'd046675bb3569a6ba5e0d31fe99d0325241ea8a1'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/util/MessageResult.java:
+    newFile: null
+    oldFile: !uuid '9339fe614a2947a6164ccae086e14798fa5df2a5'
+  /01_wallet_rpc/xmr/src/main/java/com/bizzan/bc/wallet/util/SSLClient.java:
+    newFile: null
+    oldFile: !uuid '42736ce75bd695a6a02e42f81b8c79fc4cfa0fce'
+  /01_wallet_rpc/xmr/src/main/resources:
+    newFile: null
+    oldFile: !uuid '385f8ab99a2fa884cc1d93015b4dccb6a1c50677'
+  /01_wallet_rpc/xmr/src/main/resources/application.properties:
+    newFile: null
+    oldFile: !uuid 'f17edd2d20912d684aa41a8c39c1bd219fcc4ca7'
+  /01_wallet_rpc/xmr/src/test:
+    newFile: null
+    oldFile: !uuid 'e30725322da9bea12c4d6bd6340fba2e4b7f99b9'
+  /01_wallet_rpc/xmr/src/test/java:
+    newFile: null
+    oldFile: !uuid 'c0e8ddcf2185115e3e4f7b1429ba5ade4667f7d2'
+  /01_wallet_rpc/xmr/src/test/java/SimpleTest.java:
+    newFile: null
+    oldFile: !uuid 'c58acce6850b2a50ebe4a991e3dd42877f7a9910'
+gitCommitId: !uuid '6d055ec06367fc74acccce31ea87db956b1330ba'
+renames:
+  /01_wallet_rpc/bitcoin-rpc/lib/bitcoin-rpc-1.2.0.jar: /01_wallet_rpc/btm/lib/bitcoin-rpc-1.2.0.jar
+  /01_wallet_rpc/ltc/lib/bitcoin-rpc-1.2.0.jar: /01_wallet_rpc/btm/lib/bitcoin-rpc-1.2.0.jar
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service/AccountService.java: /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service/AccountService.java
+  /01_wallet_rpc/rpc-common/src/main/java/com/bizzan/bc/wallet/service/DepositService.java: /01_wallet_rpc/btm/src/main/java/com/bizzan/bc/wallet/service/DepositService.java
+revisionId: 8
