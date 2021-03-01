@@ -2,10 +2,1510 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '7ad3369edd305e7cfc87015ea36ce99653aa4b2b'
-    oldFile: !uuid '0f31b782d40a39a6e57c85ddba5dae6fb69d2832'
-gitCommitId: !uuid '1f828b88dbca435d54859d9a0871d3ccdc5a6c9d'
-renames: {
-  }
-revisionId: 19
+  /00_framework:
+    newFile: !uuid 'b91a5bf01852f66a0df531dd692db89ac34dd80d'
+    oldFile: !uuid '44f9b2d63c65a797d1bb010861da3b23441f5ca2'
+  /00_framework/admin:
+    newFile: !uuid '7d5bd87b470de92f5b7aff4d043fd009f4d806f7'
+    oldFile: !uuid '5b68a3f9d3bf8350a899d98a8ea3c7df08c76afa'
+  /00_framework/admin/pom.xml:
+    newFile: !uuid '8e01710b96a11348a6765a92aac5d57cbfb636cc'
+    oldFile: !uuid '80b785754e30f5417e2047091d0ea6f3ee236d42'
+  /00_framework/admin/src:
+    newFile: !uuid 'f318e7dc43bee032de84bbb7424f155a95ddac5a'
+    oldFile: !uuid '7deabb97b1d100853c0f5cc5c063798284ae805b'
+  /00_framework/admin/src/main:
+    newFile: !uuid 'e20f75d2fd7c855589d13bac966df68d19fdf5aa'
+    oldFile: !uuid '8fbbb9ce40f654d2ddc24dedd60a01cab204a6c3'
+  /00_framework/admin/src/main/java:
+    newFile: !uuid '2937a84fa765fa47191cf2d4b00e2bfe2b59b960'
+    oldFile: !uuid '0ab5598d3065895b3c5b08b760b1e9da24d52995'
+  /00_framework/admin/src/main/java/com:
+    newFile: !uuid '866512601eb4f0b4778bcb56c5f8f3329ea628cd'
+    oldFile: !uuid 'a7226ee7f627ae9780ab38a13d612713c84627b6'
+  /00_framework/admin/src/main/java/com/bizzan:
+    newFile: !uuid '91371c2c779f8214deef151794386aea26a722e4'
+    oldFile: !uuid 'd2d449f01f005a6ace81199176ca6f0345f0b7df'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid 'a96a300a720254b8832aa3f2c286c6d834662925'
+    oldFile: !uuid '959b39e7bc4ffc82df71442d5bd3d383127d20b9'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/AdminApplication.java:
+    newFile: !uuid '270b4309b11991ea9066495a6e35ff514355751d'
+    oldFile: null
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/ForkJoin:
+    newFile: !uuid 'f101fd4c164fb42a73ea1e4321c12be795570308'
+    oldFile: !uuid '715eacce265409832c8481947ae5f1e621a45faf'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/ForkJoin/ForkJoinWork.java:
+    newFile: !uuid 'ee88d0c90ed90836e8b2c5eff79cc8c2a9900c41'
+    oldFile: !uuid 'f21f2e77259c8a14130d5dba04701fb11dd3e2f5'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/WebApplication.java:
+    newFile: null
+    oldFile: !uuid 'db564163f75c09dcf6d2642a4c8ffc911a522e2f'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid '6c8427a941752d5490f691ab0d1ee5c50e310361'
+    oldFile: !uuid 'c9ec6043d96ddd835e414f26395d5e9634b61bd6'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/config/ApplicationConfig.java:
+    newFile: !uuid '3a6f338d0f1576bf8d8ff582a5131a627d08c341'
+    oldFile: !uuid '9611d769bc4105dd8b1353b3c94028497dc832d4'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/config/RedisCacheConfig.java:
+    newFile: !uuid '160d2a595753fc1dced472af4d1ad5193ef0079e'
+    oldFile: !uuid '7f8bc584821e837d224df435520eba975c91e80d'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/config/ShiroConfig.java:
+    newFile: !uuid 'b96286dc87a6c99eeb0237b7dadd7e6bf187d882'
+    oldFile: !uuid 'add30c12e54beff366991a93a40b239899d926d0'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller:
+    newFile: !uuid '26e64b271fac3b3a8a43a71ffd33d8b79f7e788a'
+    oldFile: !uuid 'a6e50418628a6f0a48e218d5c4b17a6ed41cf89f'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/activity:
+    newFile: !uuid 'ef9fe72b59d7793f2cc2abf75736afeaadc39fc4'
+    oldFile: !uuid '6f287fada4471eae790d49c462e736d3b0708fc7'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/activity/MemberSignRecordControler.java:
+    newFile: !uuid 'e0f107c97a167a6ebc7eb4472676cb1ea74c9208'
+    oldFile: !uuid 'fe29f194ba7221f434e8df8e069faa112860c58b'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/activity/SignController.java:
+    newFile: !uuid '792ffd89828d18d193a0f3905bea1f4c6714a365'
+    oldFile: !uuid '743fddbcfb6c481e448b332e170b656cde61aca6'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/businessAuth:
+    newFile: !uuid '6089eecebb905e7efb5880fef09c71fff448829d'
+    oldFile: !uuid '3c1ec05011d186f1ffc8bb0e44d8dc3f6d1d46c1'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/businessAuth/BusinessAuthController.java:
+    newFile: !uuid 'd739aa30496cd004bb3a2ca2180a601a4dffda8d'
+    oldFile: !uuid '69be804b2e21cd97581674c503c95bb073d1368e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/cms:
+    newFile: !uuid '3f6dc681b97c9f01a6c1c10aa0b855ddb0d3668f'
+    oldFile: !uuid '4c9b1e4b0339bb42556605d8deb0d0c19442f8a3'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/cms/AdvertiseController.java:
+    newFile: !uuid 'bdbf7586fc6e234efc73ba27a527aff3b07f4b9c'
+    oldFile: !uuid '01114ccbea06df96ef4c63ab539143fd7f8c9185'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/cms/HelpController.java:
+    newFile: !uuid '7dd8f5291dc4e6d7f71863a07ef22eaae88fb9f7'
+    oldFile: !uuid 'd444a6d1509cd298c18eee3a197dc06153d89923'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/common:
+    newFile: !uuid '1b470af0f402ac8a98780e853bd0811449eb5a3e'
+    oldFile: !uuid '45dc4af36fd3c8cdc35330cd95567c03373b92a6'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/common/BaseAdminController.java:
+    newFile: !uuid 'cf009c6a508f9d4e61bfb822f8613e7b6ff80d97'
+    oldFile: !uuid '554d56703912596903300a7e79fe5be236582bc7'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/ctc:
+    newFile: !uuid '5b4e78aedb2114a1ca31e847cce53ce97889b835'
+    oldFile: !uuid 'c21b25ce2020be0cdcf1ee76ee73766942fe15c6'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/ctc/AdminCtcAcceptorController.java:
+    newFile: !uuid 'a19eaa8f2895348c284eb20fc357eedc83c4f3eb'
+    oldFile: !uuid '5d8b1e3339453f85d92ea2edf783cce46c1f891e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/ctc/AdminCtcOrderController.java:
+    newFile: !uuid '4900e02fcb02d324b6ec8c18e2d1b3d6515fd8a8'
+    oldFile: !uuid '4b753392172ef4bc9ce9f667cb388c6367610e4a'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/exchange:
+    newFile: !uuid 'e1df0fd3c45f5dd57c8e5cb8ece63bd6d28a3267'
+    oldFile: !uuid '1b09df7cfd584a0bf2dc50cffdeafe274563b341'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/exchange/ExchangeCoinController.java:
+    newFile: !uuid 'f25e78986ca10835b53e5b39ce9f194355956c59'
+    oldFile: !uuid '71b591af45fe702c2ac1c172383486f31c968fd8'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/exchange/ExchangeOrderController.java:
+    newFile: !uuid '8d02bd34ebc6a9f836c9085b9084c0c5fb22d779'
+    oldFile: !uuid '0fb22a062b005628d86b6790624b03d535349b13'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/finance:
+    newFile: !uuid '1bc877045b5dbe380a1c211881ab58737429861c'
+    oldFile: !uuid '8675a3d33f394e440d67310cdef699c1f07b9222'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/finance/MemberTransactionController.java:
+    newFile: !uuid 'f8214ca978013fc8f73cce5a4e10eff840fa7083'
+    oldFile: !uuid '565224eceb9e0b2b4c69458f9bdb07cd7ca0a3ae'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/finance/WithdrawRecordController.java:
+    newFile: !uuid 'ab5c3ab4714f8d258a6b50fa95e1e608d2f790e6'
+    oldFile: !uuid '71cd32147b895e6c208e7fd0e4e1c7ce9debddba'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/member:
+    newFile: !uuid 'b6887aa39920160afad40454e16d83441187373c'
+    oldFile: !uuid '23e1e05025d4444aa0c4213e03bb3357f4539c90'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/member/MemberApplicationController.java:
+    newFile: !uuid 'eda0da818d7b6249b78343b98780f1c7b795491c'
+    oldFile: !uuid '928970579dc1953fe41960ac6810ef6407ac0503'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/member/MemberController.java:
+    newFile: !uuid '0ba8b7d55cd743c307d0b975b80d33702d7fcf67'
+    oldFile: !uuid 'abce5cf90bd7ce6b69d30ade2acce2d09b268128'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/member/MemberLevelController.java:
+    newFile: !uuid '1489f0110a79b3a455827168c067131bb4a63412'
+    oldFile: !uuid '84a10278e3e62a9c7ca9be74a9031425de62b7ea'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/otc:
+    newFile: !uuid '0dbf06a2c40418518f497bc4cf736986d67b76b5'
+    oldFile: !uuid '18a350d275f87a23aaa9e755a78beb00860e93e9'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/otc/AdminAdvertiseController.java:
+    newFile: !uuid '6d23a7fcabd5b1763e997899c9da56047b8482e0'
+    oldFile: !uuid '5d53b9aca4cadc1ee0a6231f5b75c91afd666013'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/otc/AdminAppealController.java:
+    newFile: !uuid '0276e20942b841525a07f0ae55f9e5f354cb2e2a'
+    oldFile: !uuid '4db6c381a169c227ffc90bd6a75cccc09819eb57'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/otc/AdminOrderController.java:
+    newFile: !uuid 'abadc8b89e1804cebc61cdc4a39b10b2f2821459'
+    oldFile: !uuid 'ab2e78a0041faaaaf12c0c3cbc75669411b5db1e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/otc/AdminOtcCoinController.java:
+    newFile: !uuid '9d5bcdbc1ccab6d56974f581bf053c6ce90ed060'
+    oldFile: !uuid '948aefa44f56d46a43ee044b73e1a0a35c16f789'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/promotion:
+    newFile: !uuid '7cfb9ddfe53165c5d33dfa86fb6a5c1acca59daa'
+    oldFile: !uuid 'f4ec9de1838371455c87bb51fe544c9c43540d2e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/promotion/MemberPromotionController.java:
+    newFile: !uuid '8ecccce3d307330b92f9a812e705d36bd7216aca'
+    oldFile: !uuid 'f3fdf7fb4e00ed2d3ee4a978d41d1b2aa1cf23cf'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/promotion/RewardPromotionController.java:
+    newFile: !uuid 'c09620283f10c3c0399acdceec3ceb2cf03ae97c'
+    oldFile: !uuid '9fc59695eb047fa4be3b865b1ebed07e0c12958b'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/promotion/RewardRecordController.java:
+    newFile: !uuid '7834e5030c8055caa9f6140fed288a7733aa52c9'
+    oldFile: !uuid 'f638e8f16ee5473130139dc2686780ae16deba72'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/redenvelope:
+    newFile: !uuid '2189289f5e006096735782b9ee6c8e0200f1b36c'
+    oldFile: !uuid '87a37090d3a78f8edf3395f9977a1454c0c6e52e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/redenvelope/RedEnvelopeController.java:
+    newFile: !uuid '6b5c12edda21b524853552d373152194b5f18f88'
+    oldFile: !uuid 'a14dc532ec250097dbfc574f26cc718d38802f13'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system:
+    newFile: !uuid '42bf0a0f42260f5db5c3fcabd3e8e1d9b40ebf15'
+    oldFile: !uuid 'd5b2188c5bfc78a51c17ea1e0ae370021031807d'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/AccessLogController.java:
+    newFile: !uuid '768afe49bc034d0c8980ee80a54985c21acf4ec1'
+    oldFile: !uuid '2ccf78a14df47f40bc82da8ce0d122453b3a85d9'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/AnnouncementController.java:
+    newFile: !uuid '0672941c29ef5f9ef1e8e926854f22b4a8961096'
+    oldFile: !uuid '44185268ae95d954f62b133427e44d03e9da144d'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/AppRevisionController.java:
+    newFile: !uuid '32a64b8c5ba4d312c5604ed35f62b4991e1e5545'
+    oldFile: !uuid '26549f7744872c308dc9f970f2154faeafb95b25'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/CoinController.java:
+    newFile: !uuid 'fdd31d61c1076de9201ce4365954a0ed64a7ebf9'
+    oldFile: !uuid 'd60ea0946fd8f3475d7517889682b30592878f1e'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/DataDictionaryController.java:
+    newFile: !uuid '1fb4ae34e2ea072c39907d33581c5953492363dc'
+    oldFile: !uuid 'cb76639a1c58fca10220a472cb79829c7d0aedd8'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/DepartmentController.java:
+    newFile: !uuid 'e89180c83826b9bba7692f16d3f3792a2ecab84c'
+    oldFile: !uuid '9ea3e9a74048c590f96265216772247870e88a32'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/DividendController.java:
+    newFile: !uuid '39aa079ff63609a83ace65bcbb763c49ec108da1'
+    oldFile: !uuid 'de96fbcd396a93b0b7b4be48764d86eee885555c'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/EmployeeController.java:
+    newFile: !uuid 'f5294a53125e8018ed11801dcea0fa90aa81b904'
+    oldFile: !uuid '22b8922ae2aa7ed6e1cfcfbc8cd48c94943cc5e9'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/GoogleVerificationController.java:
+    newFile: !uuid '8903412d86838efe0fff3ce13ac8162cecc2339e'
+    oldFile: !uuid '06ab1683fff3c3e091eab0efbb479825c41d466b'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/RoleController.java:
+    newFile: !uuid 'fa286813402a1698eebfda28f3db979796c09e0a'
+    oldFile: !uuid 'c1205d02a3227eeb5a4228bad38755cdf0804cc2'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/StatisticsController.java:
+    newFile: !uuid '2ac9a2291e8a280b00ae3167909aa0c926a6e7e1'
+    oldFile: !uuid 'eed3415b8e1f7d221e664a8718b27ac22fd3a3bc'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/controller/system/WebsiteInformationController.java:
+    newFile: !uuid '4d965eb0a2c26f6c5a89887c843e44299a732e5d'
+    oldFile: !uuid '94f4769ada39334c5ad8e137ac3c6bcf204cd916'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/core:
+    newFile: !uuid '621005c7bdd392ab420ffdf0a4aaf73d729e5286'
+    oldFile: !uuid 'ce2dbb0d8bd563774839eaf0699bcafb1dbe9cba'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/core/AdminMyControllerAdvice.java:
+    newFile: !uuid '45145972177095dee15d233a9f49d63df1addfb7'
+    oldFile: !uuid '39cf8b0e0d6317e2e0b20639563915042fbced81'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/core/AdminRealm.java:
+    newFile: !uuid '6da2384bafce4712e64a67411e1fe036587dc750'
+    oldFile: !uuid '84fa604347809cb03d3fcbfb2846286909505a9d'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/event:
+    newFile: !uuid 'ac74d87ea9beb9ceef404b325585a3cfe6d5bde8'
+    oldFile: !uuid 'ac981590b9d8999ea2d13835da63e00033aaa354'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/event/OrderEvent.java:
+    newFile: !uuid 'f3d7d45c2df4124e99fb6bc5a6962b2a951676d1'
+    oldFile: !uuid 'f538ad919505860e1fe6f654510e388f4b8e3c47'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/job:
+    newFile: !uuid '49ea1a8f15e37bc3a23afa65b4196fba2a3ec4b3'
+    oldFile: !uuid 'b70a1dca4faf5cbb03651e48a297c977da2d3a09'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/job/CheckMemberApplicationJob.java:
+    newFile: !uuid 'af41dc6dfe9fe94ca503ec585442c3e928edff37'
+    oldFile: !uuid '6e272d845baaf717e491ce8488540995ac8409ed'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/job/CheckWithdrawJob.java:
+    newFile: !uuid 'ceaf448d7dd12c8977efe2d0d7fc9b188d1e917c'
+    oldFile: !uuid '46f1024f53e81ce862c8a169cc16177fa1892afa'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/job/DumpHistoryJob.java:
+    newFile: !uuid '315572c32e13408940f2f4b6bf12d33507550104'
+    oldFile: !uuid 'ef3bbeafe7cc8c63ffb7a9a370a17a73b4a5db2b'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model:
+    newFile: !uuid '84a8f625c5e434e9e91e4195cb8a71df31535ae6'
+    oldFile: !uuid '10dfda5c13356be468dc4730b9bacad3451aef5a'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/create:
+    newFile: !uuid 'b370b0d8761342e6dc613d0111fe9353bac25d29'
+    oldFile: !uuid '2ef080d1be8a131bc80a9e279220b3d994f58bac'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/create/AppRevisionCreate.java:
+    newFile: !uuid 'f662a18b34efabc724cccacb7679e315c8253977'
+    oldFile: !uuid 'bd7117321fa9ddef7ce4c8a5dbda76f70765b8e1'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/create/DataDictionaryCreate.java:
+    newFile: !uuid '28f719181920a280affc2d49895317ba7adb4b9c'
+    oldFile: !uuid 'ee85130f042b72469c1bff5d4345066fc0067dbd'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/create/SignCreate.java:
+    newFile: !uuid '69756f42b7b7eaebb3c4be0d0d4ab5ee6a1aa289'
+    oldFile: !uuid '132a5808678b914aada834b4415842f581c8c1fb'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/screen:
+    newFile: !uuid '73921b022728d7730069c62d98abb0ac2b9d1433'
+    oldFile: !uuid '6dab5524ae13ee56211624553898e89bd8bfa78d'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/screen/AppRevisionScreen.java:
+    newFile: !uuid '41f9739ec1d2807318fbea015f8d2ec1c72553a8'
+    oldFile: !uuid '40255a3d66b0e01a3325ef15a17f2d5a759a9873'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/screen/MemberSignRecordScreen.java:
+    newFile: !uuid '90657d88fc4d5c6b54f4afa2275d0d3a253c3484'
+    oldFile: !uuid '263a6ed3bb3277316f1d6a35a7a497b6fcd7db45'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/screen/SignScreen.java:
+    newFile: !uuid '65d4a255eb4cec80784af7e18bde870f8b856c5d'
+    oldFile: !uuid '447f335be5456317e4d1d22c2c71922557feb3f2'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/update:
+    newFile: !uuid 'c9c4ffadd81a55ed8bc7d7fdc11a9761d2b7f461'
+    oldFile: !uuid '97afabb3e0bae8141e59cf1e774414bc2482e82f'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/update/AppRevisionUpdate.java:
+    newFile: !uuid '50a42c869921b7a8f95f16a29bdd9a7523b581a3'
+    oldFile: !uuid '13a0a9c2c290b5409ecb87de3317c71e21aab555'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/update/DataDictionaryUpdate.java:
+    newFile: !uuid '71d3781e104d505e5d10fd450b5f3b0d379bff6b'
+    oldFile: !uuid 'bf5d8d9d975e1f6217a3420c9ee84ebb10b79890'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/update/SignUpdate.java:
+    newFile: !uuid 'bbaf9befcff29296b9a3084aafc95212801e8a9f'
+    oldFile: !uuid '4b6f82f4ebaa1a739be26dedc924d34770c4265f'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/vo:
+    newFile: !uuid '23fa38842e199f8359f0d0f77908bf24f8532a8f'
+    oldFile: !uuid '63dc46a9f9afa22a9c8c0ee93abe74fe371b910f'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/vo/MemberSignRecordVO.java:
+    newFile: !uuid '25600b91c78ff74e5417c5e88e2807574329bccc'
+    oldFile: !uuid '26ecb2e0007b224e60677809afe8a104877c0905'
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/model/vo/SignVO.java:
+    newFile: !uuid '6ab38550870cc334a821be4c4806304126ce2a0e'
+    oldFile: !uuid 'c208cb1a07f004ce87109d38da2499ed9c5e277a'
+  /00_framework/admin/src/test:
+    newFile: !uuid '07b9fa1fd0940553d1dd338842fa6fe8afc019c0'
+    oldFile: !uuid 'e24ad50967f58d4663b3e82531b5f54a0c8fa3fc'
+  /00_framework/admin/src/test/java:
+    newFile: !uuid '2b26bd9bcd9c8af12727f121b98ab528698bc409'
+    oldFile: !uuid '0bf0a154d474586a56afa1abff4cceadaf68095f'
+  /00_framework/admin/src/test/java/com:
+    newFile: !uuid '5e2c11a7c412749aeef88c19957d44294cf17c15'
+    oldFile: !uuid 'd67139078c568d6407db34b9cda993f1e499f0bf'
+  /00_framework/admin/src/test/java/com/bizzan:
+    newFile: !uuid 'a5ca78323b51a9cd769f1770d94b21081d23b7f0'
+    oldFile: !uuid 'd40be1afd550d3e07ac27134d371ef1051db5876'
+  /00_framework/admin/src/test/java/com/bizzan/bitrade:
+    newFile: !uuid '3301dde7ec27a234c6a6a342b7aeac6174ef2dea'
+    oldFile: !uuid 'e4a586ebc9cfc35274e828576028a2f1d68ba942'
+  /00_framework/admin/src/test/java/com/bizzan/bitrade/DividendControllerTest.java:
+    newFile: !uuid '7d340847131142a4c8b33b1847c09311257d385c'
+    oldFile: !uuid '551b46631a8d63e22c587634ce6e2aa3470ae693'
+  /00_framework/admin/src/test/java/com/bizzan/bitrade/WebApplicationTest.java:
+    newFile: !uuid '28e85217e434a370aea6085f688af5353d082ed5'
+    oldFile: !uuid '312bd1ab299074974af1e4340a5598415e762eb3'
+  /00_framework/chat:
+    newFile: !uuid '9a3d3e992a6170f2d9961d7aa6da56b0180604d2'
+    oldFile: !uuid 'd4e926926a3cb458669025bba185b1c69b3aa4ad'
+  /00_framework/chat/pom.xml:
+    newFile: !uuid '3b329dc3fafa2eca1d5588c72aa1dd73a09106d0'
+    oldFile: !uuid 'e0991c52bfab2f029afac4de883a025567c3b76c'
+  /00_framework/chat/src:
+    newFile: !uuid 'e76876732aa8a1387ac76e14c09ea764cd40256f'
+    oldFile: !uuid '5472276d4b2ebcca63651a6832eb58e05e57f214'
+  /00_framework/chat/src/main:
+    newFile: !uuid '1bdf69279f958bb20340d08fe95a1b7ab304e735'
+    oldFile: !uuid 'a04eac004ea2fbe52149939fdf10d8436d4147e3'
+  /00_framework/chat/src/main/java:
+    newFile: !uuid '0b51d75419f831131001f2078f48d2ac06fe4739'
+    oldFile: !uuid '646d2d2295cf041dafd9d1c0d5eee1727505d1d6'
+  /00_framework/chat/src/main/java/com:
+    newFile: !uuid '5c8f3f8c4e324566c08b4547259f28561592ddec'
+    oldFile: !uuid '744b46c87c15f6e4b0e7bb104ed1d8e51094d316'
+  /00_framework/chat/src/main/java/com/bizzan:
+    newFile: !uuid '3f38d4d03174e4f20e1c7511eb919edbd0e5427c'
+    oldFile: !uuid '3c9623a0aaa9d2b9bcb7521a7c9987ea2bab7727'
+  /00_framework/chat/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '0ef22e4ded37eaf0198ef5846804c7815f2f78ea'
+    oldFile: !uuid '1af77bb5d3a7a8154d5920997b38177341fd80cc'
+  /00_framework/chat/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid '2134ccdb17210c544703ee9a3eb5eed744a868f4'
+    oldFile: !uuid 'f53eb34b44bd6fe87a9e9c629fdbbd93480818b5'
+  /00_framework/chat/src/main/java/com/bizzan/bitrade/config/ApplicationConfig.java:
+    newFile: !uuid '13684d2619352ecbb1e06d3521b018798b8c402e'
+    oldFile: !uuid '5fdcdd8a72b2bd2c5f23f3634f14fa0d04081cd3'
+  /00_framework/cloud:
+    newFile: !uuid '97533a058e5b425cb08fb05fdc3c654101464303'
+    oldFile: !uuid '4b6c14c990566af2421a5068e30e846d5c26e873'
+  /00_framework/cloud/pom.xml:
+    newFile: !uuid '2d7892b5ac0372a0484246bbd26241b2a2605f40'
+    oldFile: !uuid '8e75b492bd178c0509d10c25fb0ff24e67b78d15'
+  /00_framework/config:
+    newFile: !uuid '6eadf382fcbd5512fd8757d52f1166eb9405a585'
+    oldFile: !uuid '5329fbd080de72561a6c5a1fa37db655cf724fd3'
+  /00_framework/config/application-dev.properties:
+    newFile: !uuid '18539c169fd9c32590635c1aa1e4326d43ea213d'
+    oldFile: !uuid 'f55fbca13f206095c637611024084862ea7ca9be'
+  /00_framework/config/application-prod.properties:
+    newFile: !uuid '18539c169fd9c32590635c1aa1e4326d43ea213d'
+    oldFile: !uuid 'f55fbca13f206095c637611024084862ea7ca9be'
+  /00_framework/config/application-test.properties:
+    newFile: !uuid '18539c169fd9c32590635c1aa1e4326d43ea213d'
+    oldFile: !uuid 'f55fbca13f206095c637611024084862ea7ca9be'
+  /00_framework/core:
+    newFile: !uuid 'd400575ce965cf4ec188ee770f667c64e2114947'
+    oldFile: !uuid '72ce8b1f1d118ee5cf14723bdd5b709cf9f4aab3'
+  /00_framework/core/pom.xml:
+    newFile: !uuid '33b12cf8149c58e3af833a7106254f2c08a1860b'
+    oldFile: !uuid 'e802518e366b65741190b4ded6f4ea0ab19fc726'
+  /00_framework/core/src:
+    newFile: !uuid '4e6c9df612b4782c3a0fb50efa204d911a02f7d2'
+    oldFile: !uuid '19698423007ed686e441db26b275e0363e97f276'
+  /00_framework/core/src/main:
+    newFile: !uuid 'dd55f79aead209fdfb1c8b5d6e18eed6756631e9'
+    oldFile: !uuid '4323bd985e93652a4ed63faa9009bfcb02ddee72'
+  /00_framework/core/src/main/java:
+    newFile: !uuid 'c8f688e4cd6b00362bfe2d8260d95fe50ad8cd7f'
+    oldFile: !uuid 'a5a668808dc483fcfcb6952672ee2a839b4ed55b'
+  /00_framework/core/src/main/java/com:
+    newFile: !uuid '2764a7c63af443060d1759a72c6b8b24db19489c'
+    oldFile: !uuid '98a272ad7dfc232aab68c694e298411dc38170ae'
+  /00_framework/core/src/main/java/com/bizzan:
+    newFile: !uuid 'a1e715ab7396809149587e351381f06ad608156c'
+    oldFile: !uuid '434b2e0ce15753c18f0ce894a902ed773a3d36f8'
+  /00_framework/core/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '262d801056f12fa710225c76eb262003261b430a'
+    oldFile: !uuid '15fcff8eb27197c1404b26fa09107f956e8edb6e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ability:
+    newFile: !uuid '64f0874c1b07aa4d132220979ae59fd99c7f0d47'
+    oldFile: !uuid 'e3b165e78e72ec96a99e0fe1a167954f095f5d6f'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ability/CreateAbility.java:
+    newFile: !uuid 'd7736a93e786f5905821035f88524b767f459cad'
+    oldFile: !uuid 'ffd81416dcb391c4f652c1b204671290eb95b73c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ability/ScreenAbility.java:
+    newFile: !uuid 'cd51a60696bd11beb16808547adc668455331c1f'
+    oldFile: !uuid 'bc45e7d3ecadd32bcdfe55b6d3836abda074dbcf'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ability/UpdateAbility.java:
+    newFile: !uuid 'd8b2aa28a3dd2f5b9787f2fbf926d0e8239673b3'
+    oldFile: !uuid 'ff42e0b9f16781cadc6afcfffe5caebb985d430d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid 'ebc89960bcc7ebc43d52e7ff6306a4e1048bf1e5'
+    oldFile: !uuid '8ef8465856b8103d029810220c5b98f0f78df96b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/config/JDBCConfig.java:
+    newFile: !uuid 'e9452de11efd0fc40901a653dc3e5ff5881f8f8c'
+    oldFile: !uuid 'e90d927a91eb89154f8443677060f22975d1b872'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/config/QueryDslConfig.java:
+    newFile: !uuid '0b85af92c43947855c9d03ae3b1c6a55379c9c3d'
+    oldFile: !uuid '4940e8912091f7799edca10115d30e3ab36d20b1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/config/SystemConfig.java:
+    newFile: !uuid '04b5406b2b9e8d93391952b45f86c235f1b8998b'
+    oldFile: !uuid 'de236061de6bf13f8bc0386b5655719f50d846b8'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant:
+    newFile: !uuid '382ca723c45b52950ce1674a3b321cef471c2423'
+    oldFile: !uuid '1890d45c5ff5389b8f11dcf348771264f4bf49bb'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/ActivityRewardType.java:
+    newFile: !uuid 'a140ed023830f06f3b2d6d3b70b40b2cafbbf8f4'
+    oldFile: !uuid '03f58fd0ff121a6b45099aaededdb86a33295f56'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AdminModule.java:
+    newFile: !uuid 'adaf78deeb06940e628c269fe3d9feed699f5f3c'
+    oldFile: !uuid '6c8ae349329bebe17de38fd2be1d4fac1f280a6e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AdvertiseControlStatus.java:
+    newFile: !uuid '3891ab49dbb92e3288776d443f38a19c7662a87b'
+    oldFile: !uuid 'a24009664b5645baa5122cdc24b136491986d178'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AdvertiseLevel.java:
+    newFile: !uuid 'ab1eb32fbe21075f1805ddc3e97547170cddc238'
+    oldFile: !uuid '00f8a033f4a7a01f7966b6bad0f3329baca03ac1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AdvertiseStatus.java:
+    newFile: !uuid '4abd59425a6e2d0314514e261b79d469528198cc'
+    oldFile: !uuid '556bb866a5d20c9800e69614cea0fa6131c0e23c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AdvertiseType.java:
+    newFile: !uuid '6421f177f53b04c6cf3142cceb969e12e6110880'
+    oldFile: !uuid '17dfdc741bde429a64bf1d52dce769476815e6a1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AnnouncementClassification.java:
+    newFile: !uuid 'd55b1231b49bb0bfe004f0c42b29c7eb36c3e50d'
+    oldFile: !uuid '6a2e53f78ea8b59b700b1fe75e6dfa5ac197846c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AppealStatus.java:
+    newFile: !uuid 'b5305b5beaff3ba8166c517e638251142d562143'
+    oldFile: !uuid '43b4e89e3bb56fe7a660e52082ddeaa780250a1c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/AuditStatus.java:
+    newFile: !uuid 'b1c9d9deb1b660861dd8d1401bc8305acd7ae31b'
+    oldFile: !uuid '0175cf8f83409031c4a41cc0a1e7d04a926e2535'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/BooleanEnum.java:
+    newFile: !uuid 'ea0637a6972433859b9dd30d464a87fff64c9e39'
+    oldFile: !uuid 'd699a9339ef0e9e4412df1c21fec4c19efa6c8fe'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/BusinessStatus.java:
+    newFile: !uuid '9e50003294ecf6d9919dfc5f3b05ac89e3c4aeef'
+    oldFile: !uuid 'b9182a00074ad74de9b7ba08cba20d6e566c30be'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/CertifiedBusinessStatus.java:
+    newFile: !uuid '16c284fc718b5dd5b8a06d9f21e3ed1eeb16e0bf'
+    oldFile: !uuid '5e12b8c2b29bce94ad837a0f9c12e2ad6e8c0288'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/CommonStatus.java:
+    newFile: !uuid '0ec99dc65f17bc5dc5920cac05048a63f7f91cb0'
+    oldFile: !uuid '45f50b6930e67dbb156bffbe46746d4245c71428'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/Currency.java:
+    newFile: !uuid '31a93cab580a8ad21231310e9ecb076cdebe0646'
+    oldFile: !uuid 'b79d7684b2e1f2624a0557c15b8a329c9e7fa9ca'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/DepositStatusEnum.java:
+    newFile: !uuid '67537411192b3198464619a305b21eadb4a2de6e'
+    oldFile: !uuid '983cca9f78ccecef8d31cd8c6aae2ee9c9f9b2fb'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/MemberLevelEnum.java:
+    newFile: !uuid 'f922bdfd0c36a68ff64e88d5a29657fa70960b3d'
+    oldFile: !uuid 'b11e3efbdfbe5fc8f9bfacc32d98e5d2b28db652'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/MemberRegisterType.java:
+    newFile: !uuid '8b9153d17e6a6bbfc40756d094189b5e0740028a'
+    oldFile: !uuid 'cc660060ff040d33c7c92c241a383e0447e06dd3'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/OrderStatus.java:
+    newFile: !uuid '21793d76edea169652b2686170699b29e5266cf5'
+    oldFile: !uuid '0c902609cc3674a8d3c0d587945b2f8f38943613'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/PayMode.java:
+    newFile: !uuid '8d91058526c2c5dd6847b24ef85f370b1a245fc2'
+    oldFile: !uuid '3baeb9250876b4235e1f22fe8786370cb994bde2'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/Platform.java:
+    newFile: !uuid '1de9b3df9b913f8cbce85ebec8bfe1fa53d8dc59'
+    oldFile: !uuid '25659671edfc25542f6672020a6b59b6285413ed'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/PriceType.java:
+    newFile: !uuid '81e7bfca0e499461f518da784952ab0dd2cb61a4'
+    oldFile: !uuid '002eb238184f88ff0db003d0fac2cfc32fccd5c4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/PromotionLevel.java:
+    newFile: !uuid '7248d5c225b54382822808ad0b566add0aec08b6'
+    oldFile: !uuid '41547ba32bc34eed41bc08c14db8df5706808355'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/PromotionRewardType.java:
+    newFile: !uuid '2c8fe0fde2b5d1fea91355e0d08a74bee30ba6c8'
+    oldFile: !uuid '97da1bc4c483920e571283fbfcc2b1dfbad7a537'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/RealNameStatus.java:
+    newFile: !uuid '75e3b54ae7c8e896a8e405ef1c500fefd0fa9aa3'
+    oldFile: !uuid 'ccbe11daf4881f6acf61cc6c6eb894703b783f39'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/RewardRecordType.java:
+    newFile: !uuid 'df291290a55a9d81f46d096a7caf5e60815d5c44'
+    oldFile: !uuid '5855e687c9049919bb8a4134a86718483711cbcf'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/SignStatus.java:
+    newFile: !uuid 'fcada862339f44ebd1039752a627055f657172d7'
+    oldFile: !uuid '8037fd457e00e1ce1c307ab074334981096327fb'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/SysAdvertiseLocation.java:
+    newFile: !uuid '713fa96f5aa9fe0a9fe206f3a757e1db1bc5e29e'
+    oldFile: !uuid 'b2e1643d614b0b49dae28111228110b3a3bf9f34'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/SysConstant.java:
+    newFile: !uuid 'b97501dd86e6a46c3cf48b65437b7ec41200968a'
+    oldFile: !uuid '3c96371a0e91a6fa4b75f7363fca9c0bb0ada687'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/SysHelpClassification.java:
+    newFile: !uuid 'c973bd7ae6048f86e47c06f1113a7f54963296a6'
+    oldFile: !uuid '96a58a170a6eca02e3dda85e38cd9b0bf5140858'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/constant/WithdrawStatus.java:
+    newFile: !uuid 'de984f0fbcde22c68179444f0c1b0cc354cf80fd'
+    oldFile: !uuid '3e157661883c343fa1c653d73cd9cfa4358bd2a4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/core:
+    newFile: !uuid '0da178b564f22763de3def685c5a0727f9d06f51'
+    oldFile: !uuid 'fb2362526421a41d7f6aa89ff200319efe20aa02'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/core/BaseEnum.java:
+    newFile: !uuid '509a7f8945569789303178cda880d997a9576bba'
+    oldFile: !uuid '4a898d15e897acc84ed8a219e88fb8151f364acb'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/core/Menu.java:
+    newFile: !uuid '3450245a631fef1061f425d62143c0dd97c6e74c'
+    oldFile: !uuid '9351922288682511cc4603432b64d3fa580359a1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao:
+    newFile: !uuid '8df63d352b98bd3314ec094eebb2831bd44c4d6f'
+    oldFile: !uuid '175d85f9d893a39f9a2ad671674d8488d5f5b1f6'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AdminAccessLogDao.java:
+    newFile: !uuid '7789da819e007a1a9ff0a216a966c66b530dd5ce'
+    oldFile: !uuid 'eecbaf746bf14b512fb0671b37dd52c77fdd1edf'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AdminDao.java:
+    newFile: !uuid '760a12aaa5b3af6ed702196681e8b910853bf32a'
+    oldFile: !uuid '0cfb174866e1804347c0d0344e76fc3faaa09b69'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AdvertiseDao.java:
+    newFile: !uuid 'a3a9885d139528e9fe4ce85432a5b8842ad8aa7e'
+    oldFile: !uuid '196a160c3239b92ab49e2e8dd77af8948ea7411c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AnnouncementDao.java:
+    newFile: !uuid '01dc9aff96fb41cbe18471156e4de6176ae60b87'
+    oldFile: !uuid '67352ad5ad54f764bb94a1d23c14383f9dad62c1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AppRevisionDao.java:
+    newFile: !uuid 'dca7856eb21f58609d6f2c2f9cd8c780f1a0b28e'
+    oldFile: !uuid '3ff31d57f74af06fc46889e73d04abb9fe5db230'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/AppealDao.java:
+    newFile: !uuid 'b4ef170b7b13f962d3ef96c578f927d17d5883e3'
+    oldFile: !uuid '420d6d169d53d263196dc9144324578787b95e94'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/BusinessAuthApplyDao.java:
+    newFile: !uuid '9716bd468cd0d70e203f62393b5d15eb14b0d2c0'
+    oldFile: !uuid '7503a87b586329af469c134989d4363f3a7a9421'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/BusinessAuthDepositDao.java:
+    newFile: !uuid 'c031b2d921e2b0d0e8e292d5c701847962d66396'
+    oldFile: !uuid 'e68a1a62cdab95cd78b117e9762d4a28ccd2e1b4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/CoinDao.java:
+    newFile: !uuid '0d4a05a5c50715669b7ce0acf66f31683a399935'
+    oldFile: !uuid 'bdaa0c959077bdfa82d19c19a1ecae9d20be995d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/CountryDao.java:
+    newFile: !uuid 'cb43724e7b4329c2551a28eb6798dcc928ef3508'
+    oldFile: !uuid 'bccddeb415c97c04fa272c308c16e1008a62bd31'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/DataDictionaryDao.java:
+    newFile: !uuid 'c6b27d3d6ebacb21deb5bbe37b98472e02306837'
+    oldFile: !uuid 'b67a894affb467af8387e01185f35b4d2b2d04e4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/DepartmentDao.java:
+    newFile: !uuid '349c087eec540721a044bd57a098bed2e7cc09fb'
+    oldFile: !uuid 'a30410866a967d0d0088376b6c91ce76a5667c9a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/DepositRecordDao.java:
+    newFile: !uuid 'adcd6ae8d8058842a985e95525cf061e1277453a'
+    oldFile: !uuid '5471fe1f5a473d47c51f9eda32ab966ba486c103'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/DividendStartRecordDao.java:
+    newFile: !uuid 'ed69e0dd2e0312d8bc3cd606a84b3931b52608fc'
+    oldFile: !uuid 'f6b97ffc4781b72bc8375850da1f1f9faf43c5fe'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/FeedbackDao.java:
+    newFile: !uuid '7ccadc6ab1a7898360eb4d64fb210ac37b36b68a'
+    oldFile: !uuid 'ffdf252bb7e0a4f0f9e801183b6709b68a6114c5'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberAddressDao.java:
+    newFile: !uuid '06d0f652f3786908cdeffd646e1ce22bf67b2163'
+    oldFile: !uuid '58723796796c1e4a23f7cf1b7153f9eba5cbb581'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberApplicationDao.java:
+    newFile: !uuid '95b1bae27503b00d0acf5c67f803fda09199abe0'
+    oldFile: !uuid '4c4189c795f45e15d2c35904a17101926e0a194d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberBonusDao.java:
+    newFile: !uuid '9718935857aab558f5515cb076743993baff483d'
+    oldFile: !uuid '2a43012995bf356c63e1147b3aa2e940cd794c55'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberLevelDao.java:
+    newFile: !uuid 'c73d27cd9c5886e793299f8342eca54b0a47803d'
+    oldFile: !uuid '30658ef4ca2eefbe6a9627d292e159df6261c39f'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberPromotionDao.java:
+    newFile: !uuid '640a2d34e0d5820cbd50c7137d304b07a02ac8ed'
+    oldFile: !uuid 'e80af1283e2df6d504c09dca707965c5f82fa1df'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/MemberSignRecordDao.java:
+    newFile: !uuid 'c7596b8fdc0e295c8495225b3fe3aa45a61f2abf'
+    oldFile: !uuid '7041e552a93490a3a116be853a5d75cb955b7cb6'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/OrderDao.java:
+    newFile: !uuid '1bea141c4168f0824175a604848fec1cc82c7c7b'
+    oldFile: !uuid '1693d3c86ad3d49852f41a2030ad1efbdbd4eed3'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/OtcCoinDao.java:
+    newFile: !uuid 'cc202434046c48730f87f574f096a6584d218614'
+    oldFile: !uuid 'bf07e0a2a3e08fc5500f19ab86750afd0f430f97'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/RewardActivitySettingDao.java:
+    newFile: !uuid '1b8fed1bb3cbba68fa87db0c8c8767c838c4327e'
+    oldFile: !uuid 'df07ebba4706bfc5dcaa0a8d69757dd00364171a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/RewardPromotionSettingDao.java:
+    newFile: !uuid 'e7f4450b8bd2682fcb0a0b3554abab47f84ac7a2'
+    oldFile: !uuid '70291709da9da5387a5453eb66a2f3f0eb237768'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/RewardRecordDao.java:
+    newFile: !uuid '2d272b916653196a434b93966db5beec0fb993fc'
+    oldFile: !uuid '568ecc8f664ff63a6ce991f9d0d8496fd1b2ac04'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SignDao.java:
+    newFile: !uuid '31e4f7eda4b35f5a86689c36f12454c6289a11b7'
+    oldFile: !uuid '1e03547c1dc2807a211044d65251af77f5645551'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SmsDao.java:
+    newFile: !uuid '7255d75c7e574ff4e3a7e784d689fda6b776be5d'
+    oldFile: !uuid '72c612d60bd2d82ba8cd0b190e4d8613900b3e7d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SysAdvertiseDao.java:
+    newFile: !uuid '10ae8279e2266170a958881c9bb55a656ac91a13'
+    oldFile: !uuid '17f487adf79f1664a83aca852cfea5cbdb7dbe56'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SysHelpDao.java:
+    newFile: !uuid '204a171ca3badc6e6ee65df7429ef191a14bda11'
+    oldFile: !uuid '025e0d7a5c6b9a56d7c6cfa891b721ce62e94f96'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SysPermissionDao.java:
+    newFile: !uuid 'a9077add7006c67a77beee553128e93eb18c582b'
+    oldFile: !uuid '4538a2c21225ec405ae93cb3669ee33de93d4438'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/SysRoleDao.java:
+    newFile: !uuid '29c8c2c84db7b53fa8f9efa18194c82c4faf6f5c'
+    oldFile: !uuid 'f4dd2ed05bb66c46103d47930f92d080dd2f1000'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/TransferAddressDao.java:
+    newFile: !uuid 'ef0b4b476ac96ac984c89e21db498d4b3cd3f27f'
+    oldFile: !uuid '406a1c733e642295285d0ba56663580ee1c8bc34'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/TransferRecordDao.java:
+    newFile: !uuid 'f30cfae19016433a0042950a65c16347ab245e20'
+    oldFile: !uuid '9f9d27fd6c6f37be291ea3feb6d8bb2869c9a2d3'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/WebsiteInformationDao.java:
+    newFile: !uuid 'bcec137962435755a0bb22a25b2056b12d88c36a'
+    oldFile: !uuid '5798434cac8eea423d5d8c49382d356cb5a4e82b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/WithdrawCodeRecordDao.java:
+    newFile: !uuid 'c226baa74f8a38981902847822d7bce0346aad84'
+    oldFile: !uuid '40f853b68461a47884b9354c691e005febe4f9c7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/WithdrawRecordDao.java:
+    newFile: !uuid '0020ee4de69ebd71eed96bc3135670583d803294'
+    oldFile: !uuid '598500f1bf480c76966d5d93d9bbe0ec9f566227'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/base:
+    newFile: !uuid 'fcd8c6fa69421e8f38c81f4d260f4bf543e07082'
+    oldFile: !uuid '76de169d90e502c27bad346ca1db49d24717246c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dao/base/BaseDao.java:
+    newFile: !uuid '9b036116c5b3da68420bb3d50e3e9a1eee5007d5'
+    oldFile: !uuid 'de4323675d87edeb74c5868af71298234eae32fa'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dto:
+    newFile: !uuid '1cda9dcb20e4f9902792bb3d199531b9a3021344'
+    oldFile: !uuid 'e25e08a0444fe9f813cd88bf64930ec93b6483d7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dto/CoinDTO.java:
+    newFile: !uuid 'b3be2412bcaa6c345e50eaaabb1f4a890a0f387a'
+    oldFile: !uuid '64f5eda600273e9b2b4862338197ba5dedd39e79'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dto/MemberBonusDTO.java:
+    newFile: !uuid '3fb7646b51e23b210fdd4fed3d41590becb172e7'
+    oldFile: !uuid 'b19f69ade7074a26437abae41d5b769f1e1c0134'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/dto/SmsDTO.java:
+    newFile: !uuid '26a40995a9155fe49cc4f98f2d857e0a4d38e7ca'
+    oldFile: !uuid '8780181af3d0f4e7a4b9cf30934716efc399421c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity:
+    newFile: !uuid '4b5568b7e59d8b01fa3ad9e16dc5d937842bb327'
+    oldFile: !uuid 'dc27460a39ecdd054095c2599173c435d2ddd25d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Admin.java:
+    newFile: !uuid 'ff47831b9689b9a69d2af63f99077e3f9714f3d7'
+    oldFile: !uuid '11282bbacc3dd36cd9010054bbd30cad24cc58ba'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/AdminAccessLog.java:
+    newFile: !uuid 'f487c2e43d92de3f5be5d2ec7c73b0dff6d0cb75'
+    oldFile: !uuid '297c83706da4702728e50ae93d9437872da34f2e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Advertise.java:
+    newFile: !uuid 'b9abf86d00f17ff8b8d2db435b6b746e99848fd8'
+    oldFile: !uuid '840423708590f6069597195a82419543542a35e5'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Alipay.java:
+    newFile: !uuid 'dab1056dfb1208098ba99d0aded9bb82b1ccd295'
+    oldFile: !uuid 'c91f041c5e3e015a826ec5458dd40715cec369a4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Announcement.java:
+    newFile: !uuid 'b17cc7fbee65105fe5d749e3f5f65c08bdf1338b'
+    oldFile: !uuid 'c330ec30ab905ae2b02b49a668e72f593db6f002'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/AppRevision.java:
+    newFile: !uuid '6358df4d1abc78e017f11a3b0410e54759c1815d'
+    oldFile: !uuid '465e64a17a628a5898988c32321e682e9e07a612'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Appeal.java:
+    newFile: !uuid 'd63cb7389459b47de12ac1083bd8a08381141f92'
+    oldFile: !uuid '40a5e3725421bfd10fbc10023d6a6cb3752b93a2'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/BankInfo.java:
+    newFile: !uuid 'f7881d616655550a12deb1f467b46d9ab8150f8d'
+    oldFile: !uuid '55f7c3c8e212afbc74bb3d5cd6f39483bfaac145'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/BusinessAuthApply.java:
+    newFile: !uuid '8c902094ad6e110f4c8fb7e3116ee83917500487'
+    oldFile: !uuid '30acbca7fc92248eaa3b5cd230971e439e5cd351'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/BusinessAuthDeposit.java:
+    newFile: !uuid '5a6d42be50e2f5cdbd16eee85ffc44603d961efe'
+    oldFile: !uuid '24d3142245cf77dbd6d85690c05b04a2b3449a81'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Coin.java:
+    newFile: !uuid 'd9040f8fc6492c233cc5ae81992b6c93e5229ab0'
+    oldFile: !uuid '7af39831b979addbb28caa40c861568c383e086b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Country.java:
+    newFile: !uuid 'c9d9c70a983b25350a6ef7a0a2b8b5ac58bbc58f'
+    oldFile: !uuid '29d7e19952095c15d37b7cce1a630a4ef8504a2c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/CtcAcceptor.java:
+    newFile: !uuid '408fee9e55e3b4d256b84240662e452a6957f232'
+    oldFile: !uuid 'd69ea78f206d7fa31a9be15c6639d0040027b707'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/DataDictionary.java:
+    newFile: !uuid '82efce34cc6ed7d9d26760abca7b7927b5d6f540'
+    oldFile: !uuid '11508cd532ebdfedf1b6611a32b7747810260d44'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Department.java:
+    newFile: !uuid '4aea9234365892b10e74688fee88d749004252cf'
+    oldFile: !uuid 'f6b05fe0b3982889c57e1b3fbce406ed09f25723'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/DepositRecord.java:
+    newFile: !uuid 'cd37e09ef385dc0a420f5b0f69807a37298db695'
+    oldFile: !uuid '28e901e2b49961f7c59e2d9952bbe8b56a8fba81'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/DividendStartRecord.java:
+    newFile: !uuid 'c4f5eb9c000cf7c991804ea7948d1712146eedba'
+    oldFile: !uuid 'ab2033d985544d8330497b075814d93f443b6d11'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Feedback.java:
+    newFile: !uuid '59c6aaea79806c116536dbe35b7d83f9f4338689'
+    oldFile: !uuid '3dedad5e73e69e7a917062142a243ee99a463713'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Location.java:
+    newFile: !uuid 'b95edb56cc7a5901378f977ce6eefb99bc597eb1'
+    oldFile: !uuid 'bd6c0d582b3510d1387bf247bf1e44b5a685e89a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Member.java:
+    newFile: !uuid 'f39faa719125ed9fe64d3ebc2937f11f75481628'
+    oldFile: !uuid 'b48644b97e9926d7ba51f323ae820b3af46dc9c0'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberAddress.java:
+    newFile: !uuid 'c7ea56b03561efc33840bfb99069641a0a8dd302'
+    oldFile: !uuid 'c9bedec11898e2714ee9f1db58215e0eaa0bff5a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberApplication.java:
+    newFile: !uuid '4c5059380536d8856e9946dd93ee8a30c7d117af'
+    oldFile: !uuid 'a0f9e5bf87fa3ec0c48fbf1bfc19f9a264d17793'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberInviteStastic.java:
+    newFile: !uuid '9486b384c3ba97d7ab8bc8b20010d2b56cf9abdc'
+    oldFile: !uuid 'b0e930a893c0e79b6e3d1b6ff2788c6ea4bed1b3'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberInviteStasticRank.java:
+    newFile: !uuid '8fe36ab4380bb4cedbfb5cb753fd49b202726397'
+    oldFile: !uuid '3e0824cc7aada2deb4f2ce5da6e4d4266f6048f6'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberLevel.java:
+    newFile: !uuid '299a9474692159776f9c00e4759b5f17fd27bf82'
+    oldFile: !uuid 'd9e22c3feeed31df6b7ae597eb65a536fdab8f15'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberPromotion.java:
+    newFile: !uuid '30e75bc8374a076ee3cef547076969d01732d79b'
+    oldFile: !uuid 'c41ab64b3e2065089c7540a8816bc2899f9d19e2'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberSignRecord.java:
+    newFile: !uuid 'e82067a1005a5065a1208cea44992cb3ba5630cd'
+    oldFile: !uuid '58407c0ca5f24591e0471c269d53d817b3a932f5'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/MemberWallet.java:
+    newFile: !uuid '9ee6be686720497ca6ccc4dfdfc2656ff4da337b'
+    oldFile: !uuid 'fd41f3c85b92290b3dcececc9d15c2439cdc6d2e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Order.java:
+    newFile: !uuid '3bc01353591d73a042c1f023e770722cb77fdd60'
+    oldFile: !uuid '1dbe647d12648297fad6a7abc3b640a01de2ea2b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/OtcCoin.java:
+    newFile: !uuid 'a80a9651e46ec463b01a8d5152a4ea6b27ab7e4c'
+    oldFile: !uuid '93e9d902b5c88369481581f7e60846b46a543f6d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/RewardActivitySetting.java:
+    newFile: !uuid '66e0555a55133afa08ffb11b6b01fdba09ddd282'
+    oldFile: !uuid '926f2b8fbb06a51173e93388402c7f525f3b3794'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/RewardPromotionSetting.java:
+    newFile: !uuid 'd28f80e870dfe0bf3d09c8395ba1c97d633d270f'
+    oldFile: !uuid '349b98439adfd694f45779b0fbf2e3bc5a2b9978'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/RewardRecord.java:
+    newFile: !uuid 'c58b7162b53769919c5bf56a2fdffcc941345397'
+    oldFile: !uuid '0bfbacfbe1fbc7160657bbd194b932925bc25e5c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/ScanMemberAddress.java:
+    newFile: !uuid '03ea6f33426f875b3cc0e00235d1cc75051f14f3'
+    oldFile: !uuid '74045fe59730cb0067d7935c23732b55d253d77a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Sign.java:
+    newFile: !uuid '90826432f20e37f80c9ad7cd0a4dc5c2c1aa0bb5'
+    oldFile: !uuid '28815f727d59348f926837404081e275439e06a0'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/Statistics.java:
+    newFile: !uuid '7aa2e4b1464b2f2914f5fafdede01ed150422576'
+    oldFile: !uuid 'a2322790b28382f29834776c628c16226b878e28'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/SysAdvertise.java:
+    newFile: !uuid '5f178be345b6a6d2dfb12f00114351ab58c659d9'
+    oldFile: !uuid 'a46994038bfba734ff7ce5d0fc562bd6d09562c4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/SysHelp.java:
+    newFile: !uuid '567e9c6bb32ac5e031b85e412ba1ac561dd65ae3'
+    oldFile: !uuid 'e3bb0c487d21a2534b68a29be15d445e04ca1e62'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/SysPermission.java:
+    newFile: !uuid '08c418aac6cc9fd306575e98f60685b75cb45736'
+    oldFile: !uuid 'f8edf5a82f03d33d1ee901a4ebf26d0f50408d91'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/SysRole.java:
+    newFile: !uuid 'b4c7f2f783a8e7c30378d717d1c568b7fcfbd5cf'
+    oldFile: !uuid '07d57d1b06c2c2b61d95bdee614f13a922769704'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/TransferAddress.java:
+    newFile: !uuid '74451cae992b5d7b9486d1f1623ae2e2a8bc646b'
+    oldFile: !uuid '762050970c4f03bc4a36354f7f10e7a0f917b95c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/TransferRecord.java:
+    newFile: !uuid '6a44395bb89e6fb437846fe930f7facbe43a7dbe'
+    oldFile: !uuid '7f7537faea93a36a9ee7f596376addb6883c61ed'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/WebsiteInformation.java:
+    newFile: !uuid '94bb17bdbabccb10671bdf2a37072f31f78fc671'
+    oldFile: !uuid '4fc9598786b9808eec306b708295c6357c38da99'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/WechatPay.java:
+    newFile: !uuid '6eeff3a82693b7241a26cfdb6cbb057c147d3438'
+    oldFile: !uuid '5772a6a19784dc6dc18d18286e762133a57bd56b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/WithdrawCodeRecord.java:
+    newFile: !uuid '2b770438f84a66cf2bd493db2b62d9b8c04b9593'
+    oldFile: !uuid '48357b64732f36f483049cf3c4f8f3185e704a2d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/WithdrawRecord.java:
+    newFile: !uuid 'fbc9e997366688dea7db4c54662dac79f87b733a'
+    oldFile: !uuid '0db2037da83bcaf3d20f738040f51bb55b522b48'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform:
+    newFile: !uuid 'f7b28d424967993b21d0477b43217f6e2284d7e5'
+    oldFile: !uuid '5f3e2d5b0ef17aa4acfe6d9c2ec868c2b68732a2'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/AuthMember.java:
+    newFile: !uuid '56a261e4d303f0664b26a863a55d94561bd3ba96'
+    oldFile: !uuid '7edd2a9c377308434a674a4ad10cda719e22300b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/MemberAdvertise.java:
+    newFile: !uuid 'c0e13832a4dba1fae35e9528674fc6a13471e85c'
+    oldFile: !uuid '5df7753a0b97c021d341be68e9acb71bae2b95e7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/MemberAdvertiseDetail.java:
+    newFile: !uuid 'a5999973449ff2429dd30a9e75866f6ad5190463'
+    oldFile: !uuid 'bf8ff572bbaac80766797505c4da71267ab15a07'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/MemberAdvertiseInfo.java:
+    newFile: !uuid '6b8a1b311b4bfe84da60c5493f47490e49406688'
+    oldFile: !uuid '2e9bd4e0736e921aeaf0aedb2d72396425603993'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/ScanAdvertise.java:
+    newFile: !uuid '70c324eafe6003fc672d2b74c48d135a514ef0c8'
+    oldFile: !uuid 'e0fdc709546496bc396906c05b22298d370b766b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/Special.java:
+    newFile: !uuid '5eec6d9063ed38805110fb565839f91ab88d8c98'
+    oldFile: !uuid '3065a33e74a27310ff239d80bec1b10bbb2bc1e4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/entity/transform/SpecialPage.java:
+    newFile: !uuid 'ca254a69a2ae95b39ccca582f34d4c1a00a15d6a'
+    oldFile: !uuid '96dab3c775c6c3f8d6a06b96c21a04d8361ba32d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/event:
+    newFile: !uuid '61561ea382ae84a9fdb201856ab0af63aeb07164'
+    oldFile: !uuid '391c10a07901a4b503c6bf503deeef279e2e6676'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/event/MemberEvent.java:
+    newFile: !uuid 'dd628542658211021c3cc4dce18879cb91b15501'
+    oldFile: !uuid '4179b493b2c3676405ddd83d68ebdf4db21d03ce'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/exception:
+    newFile: !uuid 'f0bec8221267f48a457b91a655769f94d7f27e95'
+    oldFile: !uuid '8d0b3c2c3adfe275f1532dceee2ec8f11fd133e4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/exception/GeeTestException.java:
+    newFile: !uuid '54bba43aaff1e41b0b28dbfb4872d622c7453ff0'
+    oldFile: !uuid '960f4258f76f75172236daaa49a2512e7ca09c82'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/exception/InformationExpiredException.java:
+    newFile: !uuid '8643c7a87ab52e2c632d8c8136d4a56cc8a7dc5a'
+    oldFile: !uuid '681b1b8d1622fb50f76a6cc95114ac137ebefa5e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ext:
+    newFile: !uuid '6a27c18b7d0d52a3b2865448d545097b7a43a870'
+    oldFile: !uuid '27c806aef3db4462814eb94e0abfa5a08dc47a9b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/ext/OrdinalToEnumConverterFactory.java:
+    newFile: !uuid '5aee8a00d1bf8d15982a6be0f1b9759732c0cfab'
+    oldFile: !uuid '4d6f9b5f49da3e049cbccf4cdcbc21e322955db1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/interceptor:
+    newFile: !uuid '16f245e34bb66581a4f891232788a4375136bdd7'
+    oldFile: !uuid 'de8c5e03e370c20d6dea4c7cba0a84f776dccc6a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/interceptor/MemberInterceptor.java:
+    newFile: !uuid '190a81e7e1b51fc404f8fdc5301cd48396e30045'
+    oldFile: !uuid '4d59fe1b8fbc091602c7afb28e071d11c1b3a4c4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination:
+    newFile: !uuid '6b8330c32ba1a12d3c23833c89da4e1562af29ac'
+    oldFile: !uuid 'f4faa5a13317d5551f77cc26116c73a689c2fb2c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination/LogicalExpression.java:
+    newFile: !uuid '781e749b480c1c01f757fb68fe1123ebf2b26387'
+    oldFile: !uuid '70a3c075fdee2dd855c210ebd84d6c08f8bca9e2'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination/PageListMapResult.java:
+    newFile: !uuid 'edd60335ea24895bdbbfb05c6a7f822a664ab87a'
+    oldFile: !uuid '5978330a28671c70d610a97843a3580ab3f109e3'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination/PageResult.java:
+    newFile: !uuid '6aa6099f1f18b0f0257965f9b5ed890d1137195d'
+    oldFile: !uuid '309adc92055a273a96251389b244d695b2c0fa33'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination/QueryDslContext.java:
+    newFile: !uuid '27d7169ac94277e3e2f9b63665a5f173f2ca99bd'
+    oldFile: !uuid '58753f8e939751058866f50c4c8747c4f128d104'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/pagination/Restrictions.java:
+    newFile: !uuid 'a95e9df4a38a069e9664f08310f962f3ff66bb90'
+    oldFile: !uuid 'e53fe2e623714cfe0d024182a17bd7e2d385991a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service:
+    newFile: !uuid '6a89f7426aad01b401145d5ab5c57b7689180827'
+    oldFile: !uuid '5467c89fb163121a6da379e06a6067090537f476'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AdminAccessLogService.java:
+    newFile: !uuid '7b271494f08d4090bde7ce89ecb9495fbb068007'
+    oldFile: !uuid '83c912abd908cab6d82b8d391a538c53da595e75'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AdminService.java:
+    newFile: !uuid 'b493b0e37b82c22b26b9a0b91aaf6507ad4c2e4c'
+    oldFile: !uuid 'b20379001f03fbc241ae550fd1547784ca81e8ed'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AdvertiseService.java:
+    newFile: !uuid '9778b979dc2494132b55bbe08ec24074360efa4b'
+    oldFile: !uuid '96ba03797f7b89921b287af8da30443b7145de5b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AnnouncementService.java:
+    newFile: !uuid 'e335a716bf75e399296272937390863477e8c0e2'
+    oldFile: !uuid 'e1d3288d086fb4a035d73a63e47f0337f0b2f87d'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AppRevisionService.java:
+    newFile: !uuid 'ea39991f934317a6ecf05c9d9cfa351ca0599c6e'
+    oldFile: !uuid '7d5f30910855d551c40360f606091789915c667b'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/AppealService.java:
+    newFile: !uuid '77e23f0b4cef5b014f13ec76985e5b01f5a6710e'
+    oldFile: !uuid '74cac9387cb6d45763c955444b1b5a6b0cc7b5a4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/Base:
+    newFile: !uuid '42bed913696f16edbb231cbff23238a24b7d383b'
+    oldFile: !uuid '9da336bb740412ef4afe74e6398d8359ec55a3ec'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/Base/BaseService.java:
+    newFile: !uuid '545c559a72e6f31c874935738b6844153764362e'
+    oldFile: !uuid '824debac0f705421f13a24fd0ca7debb358e0dc1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/BusinessAuthApplyService.java:
+    newFile: !uuid '28e7c195e23e352239735990687d8987f8bd898b'
+    oldFile: !uuid 'f26d2975144cd7a638c84b9d43a300b5d68e7198'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/BusinessAuthDepositService.java:
+    newFile: !uuid 'a84645312aa99cbbc128d8bc7869a782738e7226'
+    oldFile: !uuid '17eb6a210daf5aad2896a60257341e2252bbbcc7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/CoinService.java:
+    newFile: !uuid 'b4e04bd0d59f7da3003b7e6a544048d87889f1bb'
+    oldFile: !uuid 'a4b74a6e75680ac6c8432c21935267af4eb7e99c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/CountryService.java:
+    newFile: !uuid 'cd7dc9a591d7e36c3e7d0f1119685dce4074e39e'
+    oldFile: !uuid 'b117afdc6da8a3f4956fdf80595c72f2ebdfaa6e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/DataDictionaryService.java:
+    newFile: !uuid '4427ac21d6e131a5b423b86c1b8579a51fa26884'
+    oldFile: !uuid 'd529ec9021cefbe7a193bdf90c5c8fd88c214f74'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/DepartmentService.java:
+    newFile: !uuid '006848efb246802e9569c8ee73e32c9f5af13c34'
+    oldFile: !uuid '3f2eaef0445da08d107710e491e7aaeb2b5c4ca4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/DepositRecordService.java:
+    newFile: !uuid 'a705b18761b5558dfb3a86d3ab18c3ec2c4b0b53'
+    oldFile: !uuid '419379a4e8d42faea1c12ee5b02be920565a5f5a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/DividendStartRecordService.java:
+    newFile: !uuid '18db0f4874af7075f089977e2f2c1830382adfee'
+    oldFile: !uuid 'f760fd3b741711ce819d7d070c505fbbb45f3317'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/FeedbackService.java:
+    newFile: !uuid '089ae109a0fa29af9c1615c0622cc0dfc7f3fcfd'
+    oldFile: !uuid 'cdad9c9cea3dc581c14b57b17f140804269724e9'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/LocaleMessageSourceService.java:
+    newFile: !uuid 'f151579412bb309709d5e183d70583f41a2c4edb'
+    oldFile: !uuid '2800527189ba7fbe6c268bcf2f18aa2659e1106e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberAddressService.java:
+    newFile: !uuid 'a13fbedf861c881881bdd5fe399919e157cb1ced'
+    oldFile: !uuid '94fdabcb3e17bbfb1fa49bb013bffc80d18d8ebb'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberApplicationService.java:
+    newFile: !uuid '64a1d86efafed3e762a45aff4e09a79385e40ca1'
+    oldFile: !uuid '3007aed52338a8618556639a774ccb5e2e028228'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberBonusService.java:
+    newFile: !uuid '04ced28b6e46159f48d466e6153ec3f6092694e0'
+    oldFile: !uuid 'f4f17e4818a925d93814f90325122c0567f17233'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberLevelService.java:
+    newFile: !uuid '5cc52048511b6def3ec1bfe22f083927be1b5c56'
+    oldFile: !uuid 'b6f2776a346d0a6868464748159c37baa366baed'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberPromotionService.java:
+    newFile: !uuid 'b995eaed7fc98bd43784d758f63a0785d18c0785'
+    oldFile: !uuid '8e17efcdbdd12cf9cc54b35664ba9ff2f3f83071'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberService.java:
+    newFile: !uuid 'dca888e1b33a253ab28e56e6e8cf7ba636e5d4d8'
+    oldFile: !uuid '6bd38166416a3d617e5a9a1d1f2782cb54f4406a'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/MemberSignRecordService.java:
+    newFile: !uuid '6dc93b71ec25eff1f7255959ac2089b694c9d385'
+    oldFile: !uuid '2fbfcc25f1d85233b0dc8e6a03ad4b3706e14569'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/OrderService.java:
+    newFile: !uuid 'ce68a7ef8130d22267b3d290975c5760443a27a5'
+    oldFile: !uuid 'f3e17dd21ccaa1d7bdec2db37285687d263fb988'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/OtcCoinService.java:
+    newFile: !uuid 'c551873fcaa0c062bcbec380d6bf84f37081d382'
+    oldFile: !uuid 'bf06f7362cf30e37326e632405552afe7f59027f'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/RewardActivitySettingService.java:
+    newFile: !uuid '41fd170dda9bf49712fbc3f05dbf3fd74854a726'
+    oldFile: !uuid '7097296afa6fad783a63494c731deeee00aded30'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/RewardPromotionSettingService.java:
+    newFile: !uuid 'b86cee93015b1d6253cc4cf0002e91d4d1a7ba36'
+    oldFile: !uuid 'fbbe1f38caaa1f58e4abd10bf791a679d7851fc8'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/RewardRecordService.java:
+    newFile: !uuid '4159157a2f554b557d4c9bb0e7a380e4f42cb55a'
+    oldFile: !uuid 'a60db40df0edd8a2c91577a265caec885196e3f9'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SignService.java:
+    newFile: !uuid '54c9bda32ee1e5a45fbc372739d08368c15231f0'
+    oldFile: !uuid '5ad3779ec5e7f648f699066c232d867ebe6c83b0'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SmsService.java:
+    newFile: !uuid '4e495690a12caee162f127ba197fbbaca11a9bb2'
+    oldFile: !uuid '0ca3aca4dcab5f8df3f29710d3b6476de65fdf87'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/StatisticsService.java:
+    newFile: !uuid '9696c50d469da04d48a78c0a5e9f08d19e292571'
+    oldFile: !uuid '0f5539b20f809f5e0ad820160de1c72746351cfe'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SysAdvertiseService.java:
+    newFile: !uuid 'aaa35f8ab5f89042a81f27b85695a3ca1c6567a0'
+    oldFile: !uuid '24726a99acf2bd06267697c11c3117bdac357338'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SysHelpService.java:
+    newFile: !uuid 'db1cd2463ded536e23a81b5291259309495b5405'
+    oldFile: !uuid 'e84fde927883bd35c53d72ebccd0b0611b085149'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SysPermissionService.java:
+    newFile: !uuid '8a3409cdfe6bc0cf69250d923c334470ced274aa'
+    oldFile: !uuid '09548f4fc15f77db5bf187cbd35ac5793ea78c19'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/SysRoleService.java:
+    newFile: !uuid '348a89e149abd48e68a184ab2a765961a026ad55'
+    oldFile: !uuid '0b61f3058347741656c0d7f8adf3ac0f4be5a4c9'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/TransferAddressService.java:
+    newFile: !uuid '4483c192853be1863b688d6281019bc5753d52e5'
+    oldFile: !uuid '840407d025098dd060aa4897cf88ac9f62fbbe46'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/TransferRecordService.java:
+    newFile: !uuid '6ce127cc34369867ded4135bdaacabc2da5f084b'
+    oldFile: !uuid 'ac8592bd7ce1654f5bbfd85d1cbfba0705e68c40'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/WebsiteInformationService.java:
+    newFile: !uuid '47c8b255f6a8d48b46498755e62dd4dd7db85c8b'
+    oldFile: !uuid '71ab4c351b22b1fa18a35af39c25446b59d72ab7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/WithdrawCodeRecordService.java:
+    newFile: !uuid 'e2b759c8891666172a9745a033d64f8bc208310a'
+    oldFile: !uuid '7d374de2f0c05f1b4593d5d9e8ac563154536c60'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/service/WithdrawRecordService.java:
+    newFile: !uuid '59b4acfb109ae29c6cb28edfc00cfe0fe7f9b5c7'
+    oldFile: !uuid 'cba52da186eb556d25003b0ac3e6a40974944e47'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/system:
+    newFile: !uuid '8899abf3e2f00a539294239cfa13c2a4e87fe186'
+    oldFile: !uuid '33a28590627fa6c27e23f265730853670a2549d9'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/system/ExceptionControllerAdvice.java:
+    newFile: !uuid 'b145d47191af868f54ed81d7a70e227bc589309a'
+    oldFile: !uuid 'cf8b1be2faa105638978c20b6109fa63bd1bd5b1'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util:
+    newFile: !uuid '4d332886d3c3017cbc02ca7842f65023cedc9104'
+    oldFile: !uuid 'ba9307005b5c89f13d1406147ceb6dfcce9dd876'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/BigDecimalUtils.java:
+    newFile: !uuid 'e8e538be3d986c1a250b86829d94a6c13689f141'
+    oldFile: !uuid 'ab52b4010ae835a88968e5c3745b7ad16953806c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/BindingResultUtil.java:
+    newFile: !uuid '455dec2b72b994414db581ea343969d0316de6ad'
+    oldFile: !uuid '77585dc9bf2d34091a008500e2195d13a3547212'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/GoogleAuthenticatorUtil.java:
+    newFile: !uuid '701ca3587450fe8e53e30376b56679f8b7f2114e'
+    oldFile: !uuid '6c225a3d87f66c3f59ed1df4b3df76f1eaaf32d6'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/HttpClientUtil.java:
+    newFile: !uuid '3ace754c96418839a1be0986d4aadd0c401b79bf'
+    oldFile: !uuid 'a1e35a1c9cae7d9d095cf1509255849f7e036bbe'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/HttpSend.java:
+    newFile: !uuid '4ed3a3010bada0ef9acb5fd8fc9c1510edcd626c'
+    oldFile: !uuid '68a8db4ae27b42ff51388e51b37646705ef7bdbf'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/IdWorkByTwitter.java:
+    newFile: !uuid 'be44efffe34ce4ba1ae135063ad5a74d8d9e7fcb'
+    oldFile: !uuid '8ce8f12ae710ddce4f06d193f5e4b37b5c49329e'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/JDBCUtils.java:
+    newFile: !uuid 'b678aa21e911015a49bff7d812bcb9e202c9184e'
+    oldFile: !uuid 'be7d381394a411d3f3df5decc2b7cc9ae154debd'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/RedisUtil.java:
+    newFile: !uuid '6200cae2753fbd7726d977ecfe99ec0a19d3a1e7'
+    oldFile: !uuid '88a9993eaac781742fd0a922cbb4c848aecf21f4'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java:
+    newFile: !uuid 'd9e3f34db1f5837a3c52dc4be25997db8e5f0353'
+    oldFile: !uuid '50efa38c04ae45130f38b516489b9ac6b6a607c7'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor:
+    newFile: !uuid 'e514c966760a51f717ca843d6dc8476d17e3522a'
+    oldFile: !uuid '04bca2cbb4c8322723851511bf574f7b1718ee78'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor/provider:
+    newFile: !uuid '5e840de9b7d9f00f2cb00a867e17a1baa6c393e3'
+    oldFile: !uuid 'd974484c1fd87b4e5a33ec2b24ed2aca5ed71362'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor/provider/support:
+    newFile: !uuid '51fd722a5e10ea12a827a1cfbab303a68d5a8800'
+    oldFile: !uuid '7d4733cdee1aeebf4c310326c438bff92ff47b6f'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor/provider/support/DiyiSMSProvider.java:
+    newFile: !uuid '54a375ed2ff561fbf73c9f80adc9b677e2873615'
+    oldFile: !uuid '25f32b8dc47aa1e9390b08ce2a394b9d12129b8c'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor/provider/support/HuaXinSMSProvider.java:
+    newFile: !uuid 'd272dd9e079c1c87d566a36d23396a126026a9d5'
+    oldFile: !uuid '135c9d07f1fd423156ec6eaa8c00cbad1fc08729'
+  /00_framework/core/src/main/java/com/bizzan/bitrade/vendor/provider/support/YunpianSMSProvider.java:
+    newFile: !uuid '1ed1ed783656387a06b59269fea65ec98be6c80d'
+    oldFile: !uuid '0b534bee509704f26da81985f807c91885213b9f'
+  /00_framework/exchange:
+    newFile: !uuid 'acce61b16bce033c7ba82a0218c1c4bc96d4c19a'
+    oldFile: !uuid '820779311d5eb5207fa82e15eda6c4a959429ca5'
+  /00_framework/exchange-api:
+    newFile: !uuid '7a3be1c631c28607164dc87aec41e97b6b36cbd8'
+    oldFile: !uuid '89cf6c5c0b6c3a5374725a1e31daa909e6fab208'
+  /00_framework/exchange-api/pom.xml:
+    newFile: !uuid 'd668ed41cf347f20651bf63f228c33eb44f0fb9f'
+    oldFile: !uuid '609b6a5f2a5a4d0afd8b7e341cee52c8b189b915'
+  /00_framework/exchange-api/src:
+    newFile: !uuid 'b34d378c1d3b76471f198551076005f4dcab79c5'
+    oldFile: !uuid 'e5401e99d05bfb54695bde3546a28c84ebffbb0b'
+  /00_framework/exchange-api/src/main:
+    newFile: !uuid '157137e122f5bfa907e17969a0e48a4e8ab1f25c'
+    oldFile: !uuid '5fa6d6416f67fa290b54d0e81c8a4cf5747819ec'
+  /00_framework/exchange-api/src/main/java:
+    newFile: !uuid '6f228958759bd2418f62160e57689854d0fc78e6'
+    oldFile: !uuid '5b57964a384ee903dcf83332fe854e42a41ace6a'
+  /00_framework/exchange-api/src/main/java/com:
+    newFile: !uuid '9be2f1636911eeb289b9a19a909b07ce42dd5a11'
+    oldFile: !uuid 'c4139f34ab72e7bba8ce3c87c331ca88bfdcada0'
+  /00_framework/exchange-api/src/main/java/com/bizzan:
+    newFile: !uuid 'b9c452940f61f73f87b0994ad620f19c1b358970'
+    oldFile: !uuid '2e49fdad576c86249c9fa1ecffda372018ef63fa'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '9a9b6d38a89508fe2a8f58b063276dff246d84a8'
+    oldFile: !uuid '5118ad887cde5e469b7bb29edc4267554bdd30ed'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid '375156d2a9bd9abd2d5bfd712cab823d246fb874'
+    oldFile: !uuid '50095e90b6be1ca5e0ada81703c7e718374f107f'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade/config/ApplicationConfig.java:
+    newFile: !uuid '200b5cc56aae8ef63ff7e48bda3c83965cdff367'
+    oldFile: !uuid '5b000165dcd2af560647d6ed9c51e049b222d879'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade/config/RedisCacheConfig.java:
+    newFile: !uuid '160d2a595753fc1dced472af4d1ad5193ef0079e'
+    oldFile: !uuid '7f8bc584821e837d224df435520eba975c91e80d'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade/controller:
+    newFile: !uuid 'f071a56e6652502295ce3b51ed692ba04cf3198f'
+    oldFile: !uuid '467021a7312dfacc4dc88a2933d16784908146b3'
+  /00_framework/exchange-api/src/main/java/com/bizzan/bitrade/controller/ExchangeCoinController.java:
+    newFile: !uuid '7faaa16d2a957b123518cd6bd4f5a51b1a903f29'
+    oldFile: !uuid '85bb108ab57bdfafc1649e4d70644c7f15b2814f'
+  /00_framework/exchange-core:
+    newFile: !uuid 'c944643b7836f5dc0c3e24fd035ca5beca6e459d'
+    oldFile: !uuid '0a41d4de351bbf2d9719b3c55eb075b3cfcc0087'
+  /00_framework/exchange-core/pom.xml:
+    newFile: !uuid '43febcb8372bb84f0a8d36c456eb897fd805c334'
+    oldFile: !uuid '5fad7f47ddaa46a65d90366090e4ab5ec25c1809'
+  /00_framework/exchange/pom.xml:
+    newFile: !uuid '03069dd63370057b20731e1007a6fd80d1ff8081'
+    oldFile: !uuid 'e7d426c20d2a10dad6b2680fd68b37565b9f2a4e'
+  /00_framework/exchange/src:
+    newFile: !uuid '23f36d281c3723a738027db740edce64c7d91b4d'
+    oldFile: !uuid '04a45b5bfe1f07044c6d84dfa6800175a9a1fcdb'
+  /00_framework/exchange/src/test:
+    newFile: !uuid 'cc2ce5f70db5b5dbcc211d51b3246881c3f053bb'
+    oldFile: !uuid '0df86c9b1fcd955270ba00f0a3cf00990aea5066'
+  /00_framework/exchange/src/test/java:
+    newFile: !uuid 'ee6508004de2c4b90b4700facb3783ba6c8c635b'
+    oldFile: !uuid 'c206605b91be2620540367c9caec704471b909c9'
+  /00_framework/exchange/src/test/java/com:
+    newFile: !uuid 'b10f9781c043fe43c98453c4e0c2f68e909cf54e'
+    oldFile: !uuid '42d8ed7f9b6678c8f5df75711c5b3dd0ede264e3'
+  /00_framework/exchange/src/test/java/com/bizzan:
+    newFile: !uuid '1578873708c19bc4fcc60e59a909dae73486b575'
+    oldFile: !uuid 'd0329f6925a81a9a14c738e3ab9b54df137db254'
+  /00_framework/exchange/src/test/java/com/bizzan/bitrade:
+    newFile: !uuid 'e3f220e3b1e97105a84f70ece6c85c1d11c90a07'
+    oldFile: !uuid 'ab2040918c580cf58b9fd82eb74d785249c41d8e'
+  /00_framework/exchange/src/test/java/com/bizzan/bitrade/LockFreeTest.java:
+    newFile: !uuid '2d956b4227b6d44579108b99ce802c2c304b437c'
+    oldFile: !uuid '5c6f798e678c49292c2a9174788c887e599a7eb2'
+  /00_framework/exchange/src/test/java/com/bizzan/bitrade/ThreadTest.java:
+    newFile: !uuid 'ec78c3d455b6f1b7ed1da365fd43c0f053316c7c'
+    oldFile: !uuid '2210e60aecb0c1c4b80b006f285f3bfd28e5e08c'
+  /00_framework/market:
+    newFile: !uuid '3cf55ffa4f7a92638649f80c7fc45950ac51d177'
+    oldFile: !uuid '2d79b608d755db0b6c0bdcbf2ea10b287569b127'
+  /00_framework/market/pom.xml:
+    newFile: !uuid '463d917421f7d80c4517cbb0eef634879d54a1fd'
+    oldFile: !uuid '56896a643058d54d9188f45363291cb8b9a56f1f'
+  /00_framework/market/src:
+    newFile: !uuid '92dcc7e4efa6d5b4be3cab8e81a9b7dd8f25a81f'
+    oldFile: !uuid '44a5501864060d89d615649b74e3316565920c1e'
+  /00_framework/market/src/test:
+    newFile: !uuid '3bf58de381b6f7d35d7c8063c30313661330b070'
+    oldFile: !uuid '26311cb7f856a4794fc9963387e500a81182d3a8'
+  /00_framework/market/src/test/java:
+    newFile: !uuid '4cb6cbe49bd380d65e6589e1e44ad18d013ec5b6'
+    oldFile: !uuid '52241182e238fe868350f0bd51d749c5df2a3d6e'
+  /00_framework/market/src/test/java/com:
+    newFile: !uuid '08638e9fce06ccfba42e3b31080e5ceee6ffabf3'
+    oldFile: !uuid '2c4087283d294742441c533e1d60cdffffa053b5'
+  /00_framework/market/src/test/java/com/bizzan:
+    newFile: !uuid '54bf0c5cb3f4211cb714b67d787d5f7fd20a847f'
+    oldFile: !uuid '184bc0453d52d9e5c9affc3af1e1837a9a594170'
+  /00_framework/market/src/test/java/com/bizzan/bitrade:
+    newFile: !uuid 'b98c9c3f0d45820151d1dd11160c681eeba7dce0'
+    oldFile: !uuid 'd147fef13bbc6808cd3ee9012ad63ba3a6a51547'
+  /00_framework/market/src/test/java/com/bizzan/bitrade/FeeTest.java:
+    newFile: !uuid '342c3fc7257aa656ffb8c0948b811ec9c868c496'
+    oldFile: !uuid 'c8318138252731718af1d85ce0ba00901efa7548'
+  /00_framework/otc-api:
+    newFile: !uuid '3f471ca1427df7645ea78abed01306d8107ddf6e'
+    oldFile: !uuid 'c12b24f9811b854fa4c708cd6d6f6187a22ce5bf'
+  /00_framework/otc-api/pom.xml:
+    newFile: !uuid '3dc2d1c5187705d0a65bd797b98cbd0d95dca902'
+    oldFile: !uuid 'dccb9e7015b2a417e053dfd960fe2c26478882fc'
+  /00_framework/otc-api/src:
+    newFile: !uuid '3a50a03f2d1b211525d147e61d13426859cedd0e'
+    oldFile: !uuid '0f947bff77011adee8268ecf7df9696948fdc53d'
+  /00_framework/otc-api/src/main:
+    newFile: !uuid 'f1168914f9505bf3bb0f3dbac1735877282f68ab'
+    oldFile: !uuid '9df9817f62d5529745cc195eff1ee100844edf7d'
+  /00_framework/otc-api/src/main/java:
+    newFile: !uuid '3a8dc738092e631900099dbaba1a66ed93dec39e'
+    oldFile: !uuid 'cf6b7545d7732251289267a6de56d4eec26688ec'
+  /00_framework/otc-api/src/main/java/com:
+    newFile: !uuid 'b17c232ad00dabadb8c7d04b6140f7ca1882c4b4'
+    oldFile: !uuid '0c8a75ac06f70bd4faf24d8c6e9cc8dafa81c2ad'
+  /00_framework/otc-api/src/main/java/com/bizzan:
+    newFile: !uuid '344e21e55e52067749f6ff0078e3be55afb90b65'
+    oldFile: !uuid '940a0fd148f4f72cf6eab0f1396aa167a0c3011b'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '0cde124d0911696db5cb0efdee8db967bd434366'
+    oldFile: !uuid '0147a57e8e60f013d40338f34d1c331a566f34e7'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid 'e0a9d8f5102b5c3bce321695c6cd9d79f7323d25'
+    oldFile: !uuid '541b08e578e69a9e48392f5923ad1851e750eb8f'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/config/ApplicationConfig.java:
+    newFile: !uuid '0cf225ebdea722bdeb7a304ee34779e2f4ce258f'
+    oldFile: !uuid 'bb1054bcce37aa4fec3acf6e947ad2b47f2f6e25'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/config/DruidConfig.java:
+    newFile: !uuid 'edb00405fbe7d5b33a741c009a8a1a7d1b0ac4ec'
+    oldFile: !uuid '37b56000c0e03df4981e53f4312d14b1c04211a1'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/config/JPAQueryConfig.java:
+    newFile: !uuid 'd885477bec32f69aaf4b36efba0e6c51f0ce236c'
+    oldFile: !uuid 'b668b0f9a0c37ecf52e99e64773cf6cfa46c76df'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/controller:
+    newFile: !uuid 'd23eedff0d791c8a1fcea9b90e162e6d5fad7a70'
+    oldFile: !uuid '87faa63b6f85e4da724b41773fb74fd8691e3d26'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/controller/AdvertiseController.java:
+    newFile: !uuid '4e853be285a2bf878e1fde153905b37f5bb01ff9'
+    oldFile: !uuid 'eee61cc1adf32343799a3d6593e04815ae3b2baa'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/controller/OrderController.java:
+    newFile: !uuid 'e2e27161ee466c7cb8268a1e783da352b6dc5e13'
+    oldFile: !uuid 'dcdb0ce83ce09d4d5c3bc319655bbbf936d8dcfb'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/controller/OtcCoinController.java:
+    newFile: !uuid '601a3ef968894a47ecd4d7ed7c25e3485d37b82f'
+    oldFile: !uuid 'd9b9103c94b2dd4a5f0af929cee31567f7239967'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity:
+    newFile: !uuid 'f7ea51df22a0d9b02eb869393fda1e01a83f7346'
+    oldFile: !uuid 'c3d507e7ccd1cd6d0fcdd41a2ce10e74bba3d599'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/AppealApply.java:
+    newFile: !uuid '1f7bcd9fb23480a2632384b2fa6cdb3285414595'
+    oldFile: !uuid 'a79dc9b5ece3a861b0a6370257938ad36949b355'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/OrderDetail.java:
+    newFile: !uuid '4aa8f17bde9453dc6ea11852b74130816f1c9b73'
+    oldFile: !uuid '23022c08067ca460dd32905e82c4de14a5724741'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/PayInfo.java:
+    newFile: !uuid '535f1fd8750c4ab86d8af0cf3b289695e15217a7'
+    oldFile: !uuid '42c2a23a0b2d6255a03fc99529f8041392f7a74a'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/PreOrderInfo.java:
+    newFile: !uuid 'd13ea8cb1fdeffbb5f91d52394ae28c88f2d1f8f'
+    oldFile: !uuid '2eb2970d5764917b729a287fbbce98e1836ea011'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/ScanMemberAddress.java:
+    newFile: !uuid 'd59e39d6b2dbbcf3c456e206b0e0a778e79090f5'
+    oldFile: !uuid '18b97d7d8feb3ba55e79922a337b7b6640b19374'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/entity/ScanOrder.java:
+    newFile: !uuid 'db3091a28a524086df6c795e8f244a045b897a42'
+    oldFile: !uuid 'fdca8684c009b45df8318dc615dfb2756dc20089'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/event:
+    newFile: !uuid '19af1213fce435b8819cdc92dc4c3c2fdaad3488'
+    oldFile: !uuid '2385a880263bbc038d32887c1123eca88b314cf8'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/event/OrderEvent.java:
+    newFile: !uuid '5fdf9373ead10bc40d8d817995c16e26d5482366'
+    oldFile: !uuid '54b31256f1cf96fe30147699870ee91c3d758c6b'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/job:
+    newFile: !uuid '49d29dee46ecc5265cd24f24b62d6af0ec7d8c0d'
+    oldFile: !uuid '260f57d3bc1fe5f40e56adf95788b7fee9aad30f'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/job/CheckAdvertiseTask.java:
+    newFile: !uuid '32fd2ef90814820b79baa80b0f9f830dfadbfa4b'
+    oldFile: !uuid '28022fe5206056cec4582cb04fe62f8cc8a39878'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/job/CheckOrderTask.java:
+    newFile: !uuid '6e65d68e82f21e84c38341715b5699ed79e4e62a'
+    oldFile: !uuid '10e0e85b9c132f626ca45e8764a4bb8d7d4b436e'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/model:
+    newFile: !uuid '486ae8a99b25de5bd647d94a4e83074807e0cb97'
+    oldFile: !uuid '6817c0a4b170ffddd298b734299891497008e02f'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/model/screen:
+    newFile: !uuid 'd17a8666077c874432e5b24843dac0ee1d6217a0'
+    oldFile: !uuid '3bc4f3f91171a95e432a02ebe2c084416b4b858c'
+  /00_framework/otc-api/src/main/java/com/bizzan/bitrade/model/screen/AdvertiseScreen.java:
+    newFile: !uuid '829265ec020b7396b9a5152e17a31b341d85d359'
+    oldFile: !uuid '12712ad7f5ceb4d13140cb3b12a85e364ae53be4'
+  /00_framework/otc-core:
+    newFile: !uuid 'b4cedba0e8655d9eeb9316c177e71e1a71e3de4d'
+    oldFile: !uuid '2bcfc313d271172b76194853fb6ea5e3166146b0'
+  /00_framework/otc-core/pom.xml:
+    newFile: !uuid 'edf94ae2d0872c6d9b315bdce0b112d3a0505b20'
+    oldFile: !uuid '4bca1a3f10d6dc2dc4be5a27fea632b7a48bf0dd'
+  /00_framework/otc-core/src:
+    newFile: !uuid '7625321b9caecc3ad0abfbe288054f465e9e0956'
+    oldFile: !uuid '1ca77ff984ae6b2533a8148710dadc7f1d54d144'
+  /00_framework/otc-core/src/main:
+    newFile: !uuid 'c2a0a56e6490604a0f25106324ae5474edead3dd'
+    oldFile: !uuid '79d066fb3143ae2c490120d7074963e633fd6e69'
+  /00_framework/otc-core/src/main/java:
+    newFile: !uuid '37a4cc21ef7defa4f40e35c0ab487719e0ef17d4'
+    oldFile: !uuid 'e9d85e94654e37940c98854bac4109b39f4ed707'
+  /00_framework/otc-core/src/main/java/com:
+    newFile: !uuid 'd355c8c2d7f61d9d691c671393d27b79161d0173'
+    oldFile: !uuid 'e97951cbcfd82a8f8cebef33a6acd11b1ad866c8'
+  /00_framework/otc-core/src/main/java/com/bizzan:
+    newFile: !uuid '1b88f44436ce49aea0bb2486543e07005244558e'
+    oldFile: !uuid '640cb53d5568f305eb567939ba790116e94ac880'
+  /00_framework/otc-core/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '0398c19f25382f0ab15ebc684113a3494e3e1589'
+    oldFile: !uuid '1e4f998af390490941d89947d7ac8e1e6bae3bd7'
+  /00_framework/otc-core/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid '0c85fab0ef3a90e5097152b22ca9e01e467c2222'
+    oldFile: !uuid '1855e22c734d28837b528c3b4e36e6db4533eb20'
+  /00_framework/otc-core/src/main/java/com/bizzan/bitrade/config/RedisCacheConfig.java:
+    newFile: !uuid '160d2a595753fc1dced472af4d1ad5193ef0079e'
+    oldFile: !uuid '792abbe59c0edac3629d299d4f9326e9da924645'
+  /00_framework/pom.xml:
+    newFile: !uuid '57e84ea45825f5d6cbd386823e94e13027132786'
+    oldFile: !uuid '8a442ab4199628f83fb8c23e8750b47657364bf9'
+  /00_framework/sql:
+    newFile: !uuid 'cca7b18d1b107d8c459caf1bcdf9acb5e60c3a7b'
+    oldFile: !uuid '8cbd7e8c2bb3ef3a9b47d226704d86d04b26d409'
+  /00_framework/sql/bizzan.sql:
+    newFile: !uuid '013a363f7a96f8e3abb25816880405cce194b796'
+    oldFile: !uuid 'cfb6cdbe5569f917ed6a578b8246f63946404740'
+  /00_framework/ucenter-api:
+    newFile: !uuid '4919e5b6bf87666fd7401e9a13cfc9626840d5b4'
+    oldFile: !uuid '7acb71e2b785ddc8c26443c59d8d600d5f4ccb9a'
+  /00_framework/ucenter-api/pom.xml:
+    newFile: !uuid 'f42578b170aed916aae7a7bff0045eeee7c20f3c'
+    oldFile: !uuid 'd432ac9db34b80346fcb6debacf4adda961df419'
+  /00_framework/ucenter-api/src:
+    newFile: !uuid 'c9b5fe6a17f9b8b54c0c6b10489d66bba71b32b8'
+    oldFile: !uuid '02cdcc993afa9fe1f1180e19dfb5c09789432b54'
+  /00_framework/ucenter-api/src/main:
+    newFile: !uuid 'cf36581a76a229603c9e9b0bb3b846d016b38b7f'
+    oldFile: !uuid '458bb84d452c680f670bb1090d5fc43d67bed1d4'
+  /00_framework/ucenter-api/src/main/java:
+    newFile: !uuid '3ec14839fe354da107d6dc02739985e2eb12c7ff'
+    oldFile: !uuid '49775480d3eb915444814b69cdda776898d74ead'
+  /00_framework/ucenter-api/src/main/java/com:
+    newFile: !uuid '79fa24c6b4ba9d3922c2a86b15ed03f19f6abdb0'
+    oldFile: !uuid 'c8763e326a5db9baf2396dc5acc3ca4ffdb80f52'
+  /00_framework/ucenter-api/src/main/java/com/bizzan:
+    newFile: !uuid '811d53d81eb366b68694743796a97ff0756ef5db'
+    oldFile: !uuid 'eeb9b2ebfb5197fdf157b4d78a135d82f469e0bd'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '8d152d038c10c598a2978628568c00bb831964c8'
+    oldFile: !uuid '9ebad395bcbc8524e82a53ab7664f0ea2765802f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/UcenterApplication.java:
+    newFile: !uuid '38544c1ffc0e7b9eb53ec0e78694ff2e66af3863'
+    oldFile: !uuid '549a4ca16e3537654c0a6a0cc19465a5ea282a28'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/aspect:
+    newFile: !uuid '693acfcf947ec6cbcddc054fb4a92e6e4f924455'
+    oldFile: !uuid '9705d7d98e1d553d19beccb1371c753a8c6ac483'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/aspect/AntiAttackAspect.java:
+    newFile: !uuid 'd46b7dabe9ab986ed8c03304ae5ed8c62489a2c3'
+    oldFile: !uuid '1625daaae036a610baf559f90c28fd42c51023ed'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/aspect/GeeTestAspect.java:
+    newFile: !uuid 'b963f2c3edda638e9464bb83daae0d2462b81f87'
+    oldFile: !uuid '0325dcf483b1c057a37a296fced81b439b4323b6'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/aspect/UpdatePayAspect.java:
+    newFile: !uuid '5c2c205fecd9a7dd632539f44197f67b94df53aa'
+    oldFile: !uuid 'a57e7d9595456bd2a2726a13fcf5333e6e313338'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/config:
+    newFile: !uuid 'a2c4bdabe1a10c52362d17384eb55e0d31d6f6e6'
+    oldFile: !uuid '59d4b425fec0a9fac521a33e6527bd97eb23c1a8'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/config/ApplicationConfig.java:
+    newFile: !uuid 'c7514d3a0a091ba140a64b2fc673caebc4b58422'
+    oldFile: !uuid 'eef00a6cf15ccf0f0525b6402d62032d7738a1df'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/config/GeetestConfig.java:
+    newFile: !uuid 'c625b04009ab359989f34e4df0ec9c704382d288'
+    oldFile: !uuid '362816df943e19b1967c3ccc7837eca3474a7d7c'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/config/RedisCacheConfig.java:
+    newFile: !uuid '160d2a595753fc1dced472af4d1ad5193ef0079e'
+    oldFile: !uuid '792abbe59c0edac3629d299d4f9326e9da924645'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/config/RestTemplateConfig.java:
+    newFile: !uuid 'f4f3d0d6fec2126c991fa71a59b50fc1dc5fbcf6'
+    oldFile: !uuid '03bfade7367caf309b7a16c9137d9b4887bf463b'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller:
+    newFile: !uuid '573e614b81dc579915d322377277fb1d6ed1894b'
+    oldFile: !uuid 'ca20e5c3053106f14ebcc60db27ee6d45d7a194e'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/AideController.java:
+    newFile: !uuid '82bad77fdf51c2748a790af78cf63c81db05b895'
+    oldFile: !uuid 'c7e8fc56cc4ef6302699cfcf19138ec0e4613350'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/AnnouncementController.java:
+    newFile: !uuid 'c1267afec6d2d75ae8676aedb2ef4da5045e295c'
+    oldFile: !uuid 'deca28b4ecca8eaa16193addbee9d3116208c753'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/ApproveController.java:
+    newFile: !uuid 'de0cc848591d50b7fd8404a9569687402677b91f'
+    oldFile: !uuid '705f0c26ece761e3789cc8b4b98e3639737238e8'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/BonusController.java:
+    newFile: !uuid 'a6faa0450bc7d1b4556e40933197940846475afa'
+    oldFile: !uuid '446a1d73cb057b488bc7b888086abbba147d7b68'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/CoinController.java:
+    newFile: !uuid 'aef768aeb663af92712cddbd7f17ac8d1fa7093e'
+    oldFile: !uuid '949dc6af90c06c008350796c0ac889c22d895ff9'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/FeedbackController.java:
+    newFile: !uuid '8926a3bdc38eb111f3d52ef8433a92c0c2ffe39a'
+    oldFile: !uuid 'fe9cd4e63d0350644e7c7bdf3079e6bd91ce7539'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/GeetestController.java:
+    newFile: !uuid '6074c8fefcb6456bc15a5bad10093d63cf757f3d'
+    oldFile: !uuid 'cc42f95f0e3b55b6da8fa13e886fa336c0e8e6d4'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/GoogleAuthenticationController.java:
+    newFile: !uuid '30a36b0dc0cade5bdadc3e9155aa67e03dda4fae'
+    oldFile: !uuid 'e8d9dea76cb0bd05b1af875914b770765aa9d32e'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/LoginController.java:
+    newFile: !uuid '94b9e3d248810af83ecc3fbc8d9c0e738995508e'
+    oldFile: !uuid 'a2e893a5c77588ec88eda5d8c22027a3aa0be5c5'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/MemberController.java:
+    newFile: !uuid 'b37b4f193bc32150bd2d467e7fe554a20c6c7b8a'
+    oldFile: !uuid '04b0aea3948e94c82f83fb83b8d9a19e3590d853'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/OpenApiController.java:
+    newFile: !uuid 'db6f40a1a1958b7d665be2e11b0e397b0f367edf'
+    oldFile: !uuid 'b5411871c4ff816fb0edc6ae22e2241aa1087724'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/PromotionController.java:
+    newFile: !uuid '5552701d02bd3c43afd430699503f7e7ceed6ada'
+    oldFile: !uuid '440b79e3dcdd1064dcfdf28913654fd6e354233d'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/RedEnvelopeController.java:
+    newFile: !uuid '9f6119af87a6fbd3607599a8fcbb75c9b69d2b68'
+    oldFile: !uuid '418d7b22dae04e8333da6700d17a6d04f5973814'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/RegisterController.java:
+    newFile: !uuid '5963c93e5781b9c964740272de8e4362e70b562b'
+    oldFile: !uuid '4b61362cba4c6383567eaeec11a9c062e5e82978'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/SmsController.java:
+    newFile: !uuid 'f17f11bdf453d45b902d51a5ae919c34a4628a04'
+    oldFile: !uuid 'ab72480c7fdfb586ad1a1034cd48a96b6a6f5c84'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/TestController.java:
+    newFile: !uuid 'b97cc982e2fd750119bfc7a577f5addebe5433d8'
+    oldFile: !uuid '1cc6738caa21b6f75b7efac05adf9ba2c9b5cc5f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/TransferController.java:
+    newFile: !uuid '0e6d8b46fd79df8d5fa5f1c9d30058b75492c496'
+    oldFile: !uuid '159b0b33dec78d26c007ba2e8ecc0ba24a8f6a47'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/WithdrawCodeController.java:
+    newFile: !uuid '747baab3cdbe238ea0fe367ec18010e6717ef274'
+    oldFile: !uuid '6b3c79f4d66733363173e2045ebb448d53f028a3'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/screen:
+    newFile: !uuid '1f9733a58d742ff858084c8de3f61bdaf583334b'
+    oldFile: !uuid 'adc163e1edc18fab92bd19389080a2361712b164'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/controller/screen/LegalWalletScreen.java:
+    newFile: !uuid 'bf03d3831c2b7bd55938c3dc8099944e79fd65eb'
+    oldFile: !uuid 'b00fb4062cc54253e609a748a09e8943bd3e93a8'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity:
+    newFile: !uuid '352fb4fdd72bd5be21e18ad0a5a2414eeef51edc'
+    oldFile: !uuid '96441d9aa522754b58027196622a5ebb84a0c402'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/BindAli.java:
+    newFile: !uuid '44953edbe6b2a099f4e10adc0b00e1acc2f63571'
+    oldFile: !uuid '312daf8d0794fe39a57f5f72572d6a38d0d19a98'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/BindBank.java:
+    newFile: !uuid 'dba5eea8ea5de0aabd977866c76eafa6454b2ff1'
+    oldFile: !uuid '4d7689c102acc6dce8cd24dbf67204f60f9c1d7f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/BindWechat.java:
+    newFile: !uuid '1b6a9462df1cbe22beeac06fa57c7f16d2d73b3c'
+    oldFile: !uuid 'd435236a0f8a8b676562bdcfc5411f2ec815dd63'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/CertifiedBusinessInfo.java:
+    newFile: !uuid 'aa482f701be26ba851709881a52bd2f0cf5e0b8f'
+    oldFile: !uuid '25f8a119b1072b9b721b891311558d7b41fb3486'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/LoginByEmail.java:
+    newFile: !uuid '3161cf455e1a0ee7cd7687e1e4431122670108ef'
+    oldFile: !uuid 'd9780777823247f1b325b4b16384a12cd9990b9f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/LoginByPhone.java:
+    newFile: !uuid 'a3943f6f074d8224a488d8321ff6b72255fd5e56'
+    oldFile: !uuid '4a326b76b8673642e89dde1ee59a91236c47d694'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/LoginInfo.java:
+    newFile: !uuid '88628ab2e7fae0f0a5b7b2cf96548dbc521a56c6'
+    oldFile: !uuid '35acbd8566bf95c9d3672202465f9fc2a73f5429'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/MemberAccount.java:
+    newFile: !uuid 'f217a66050ebfd8360b0fa04684861ec16ffd0cd'
+    oldFile: !uuid '072769bded3aebd120736d1bde4d9c48ba03e843'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/MemberSecurity.java:
+    newFile: !uuid '992a4393ac5d05b446f0318c76112b25f7b95f31'
+    oldFile: !uuid 'bd2e5f6a87291c2acec2cbdce1a3adcebb23f4da'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/PromotionMember.java:
+    newFile: !uuid 'dff0d4f88b99ad65ee41925065d0002d42105c74'
+    oldFile: !uuid '576b543d53a0eab38c4f65e4d4ba61d3aa7af06f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/PromotionRewardRecord.java:
+    newFile: !uuid '1e742e7c63782a80dfc6a6a00b320b6e2a7267d6'
+    oldFile: !uuid '29be26f18d50c932bbe4f95a825e01b018abb3b2'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/ScanWithdrawRecord.java:
+    newFile: !uuid '10809c17953ecfcd8a5ba1f6ee15d50b065399bb'
+    oldFile: !uuid '24de047de941a0dbca72408ec5ba46bb6f0e075f'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/TransferAddressInfo.java:
+    newFile: !uuid '04637a5cca3c6d6b72811f0625d5e71ade669bb0'
+    oldFile: !uuid '66b285b007835a4978e030fea72ff0fc27a9bcd9'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/entity/WithdrawWalletInfo.java:
+    newFile: !uuid 'f6504702a741f1c07d16c92b0eab5d64c51b04f8'
+    oldFile: !uuid 'e6e96e2ae8ab6c7fbcbf0dd81dbf29dd6d62044a'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/job:
+    newFile: !uuid '52df427ceddb556aa3818be99a55c391a2b90548'
+    oldFile: !uuid '81807ee6a8829ebf19f2a9a4b9e2d53c03f3900e'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/job/SignJob.java:
+    newFile: !uuid 'df55eedd4e8efdc361146b9ce75480d8fd38f872'
+    oldFile: !uuid 'a729e27c5bcd6d5392d26db0bd60482be94f3ad3'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/system:
+    newFile: !uuid '3010cc795f2647ac422fa9f46f96379f7063d170'
+    oldFile: !uuid '5205d2482965522af913392526767458b97aeba4'
+  /00_framework/ucenter-api/src/main/java/com/bizzan/bitrade/system/DataDictionaryContrller.java:
+    newFile: !uuid '35d6873b46e362c22e212852401c27ed36c91b64'
+    oldFile: !uuid '495abfb6a515fc6129cc9b9be0ef7bd753c19ad2'
+  /00_framework/wallet:
+    newFile: !uuid 'e5475dec90818fa7b20e1ab157734aef0b07ef27'
+    oldFile: !uuid '5205b0c5145d6d921de9195392e2c3ef2888fcbb'
+  /00_framework/wallet/pom.xml:
+    newFile: !uuid '6ffba8a752d8f42e64407f044fa77ec3d4d7dfdf'
+    oldFile: !uuid 'bb7755a24f9365df38e56139e100e2788fb426d6'
+  /00_framework/wallet/src:
+    newFile: !uuid '1fe5652c7e7170561ff8737b389b2231e43b36c1'
+    oldFile: !uuid 'c7e4576d8af2be59788c7b69c2ffd6cd2d93ad35'
+  /00_framework/wallet/src/main:
+    newFile: !uuid '226631560c81d9b65214e93b1a74a6394a8178da'
+    oldFile: !uuid '61f1b342c6bcf5d5506fce8bda5fbfc6a76d6a25'
+  /00_framework/wallet/src/main/java:
+    newFile: !uuid 'f2e551529c5e96a6f5e74729fe83ca6b16f700e1'
+    oldFile: !uuid 'f9cc08f97de8d0dc5120ad4f6d208ddce057321a'
+  /00_framework/wallet/src/main/java/com:
+    newFile: !uuid '5ce6c8a09d66b898a5e01e1083a543d90464cc1d'
+    oldFile: !uuid '62f11e55aeba79c7b10afd809f6b1154a1a99896'
+  /00_framework/wallet/src/main/java/com/bizzan:
+    newFile: !uuid '70adeb2cd2066491acdffa303f927a520990a231'
+    oldFile: !uuid '6a4164d33eed24fa58d1c2e0de7344968910e2d5'
+  /00_framework/wallet/src/main/java/com/bizzan/bitrade:
+    newFile: !uuid '2757cfd2354655c0fa5804aae4f6de03119ff1c0'
+    oldFile: !uuid 'e4d3d674119f2df7afeb5098f1e3e9e0d6547edf'
+  /00_framework/wallet/src/main/java/com/bizzan/bitrade/consumer:
+    newFile: !uuid 'ca7a3ce5f74520c4dfe17e27a658520b83ec1fc1'
+    oldFile: !uuid '4cde03eb20cc48b0fa8268876927eccb5df04105'
+  /00_framework/wallet/src/main/java/com/bizzan/bitrade/consumer/CoinConsumer.java:
+    newFile: !uuid '2f0c12725ade68a76cdc51988d55d0e45181f62c'
+    oldFile: !uuid 'ee834a045fa29e4a66d02505d9c7aee391f083c4'
+  /04_Web_Admin:
+    newFile: !uuid '9fa46aec297a70acd710ab66e9ee785d7e4a7966'
+    oldFile: !uuid 'ca83b43b78c247302125cc2305fd26ee07f9193e'
+  /04_Web_Admin/src:
+    newFile: !uuid '991a642560667e8fc0cbaa28072895586ac72e23'
+    oldFile: !uuid 'a2ebfa80c8a62f832d4e2bf695d9a9db908de9ae'
+  /04_Web_Admin/src/config:
+    newFile: !uuid '94bedb3edd152f89839a4c4f514049e4c0cd1ed5'
+    oldFile: !uuid '598438ecce674be1b8c62b9e56b1fa8915a5551b'
+  /04_Web_Admin/src/config/api.js:
+    newFile: !uuid '3cc4b18b9ecd5b105990028d0ca20fcbcc640dc0'
+    oldFile: !uuid '42a299ab9c9668b379015c9eb504709cb2fbd048'
+  /04_Web_Admin/src/service:
+    newFile: !uuid '493cbede3517505074abef7f903580db07fabd23'
+    oldFile: !uuid '6f97a7a389796fc5610454e8e20bfb377e99c876'
+  /04_Web_Admin/src/service/http.js:
+    newFile: !uuid '8ee90a38bb92966e6742a533c675156437cde03f'
+    oldFile: !uuid 'd774b8908332ce6c5a9fc59bc48cf394d23c5afe'
+  /05_Web_Front:
+    newFile: !uuid '265991a4b532f66544a99cd14a6dc989946fcb9b'
+    oldFile: !uuid '718b33bd15c9ac680a23485f19b47e3daf02fe6c'
+  /05_Web_Front/src:
+    newFile: !uuid '74fd158e5eccef09b8e97660616a8f90df93d7a5'
+    oldFile: !uuid 'e265df5984cbf9b69ef42511e6d1001dcf768eca'
+  /05_Web_Front/src/App.vue:
+    newFile: !uuid 'a4e43caec4baf8800feb681f89ce5d859a659b8f'
+    oldFile: !uuid '3d0a62fa05209190141af7dde95e5e1cedf8d7e0'
+  /05_Web_Front/src/config:
+    newFile: !uuid '975ca63ff46aed499f52d385fde71ec438791c19'
+    oldFile: !uuid 'd9badab8a2a1746f79975e12b86627d92d47582a'
+  /05_Web_Front/src/config/routes.js:
+    newFile: !uuid '1cee20fe0d01378595de63f220e0a9ba1bb12473'
+    oldFile: !uuid 'd90425b4deefddf64da40aece7c54834e556c430'
+  /05_Web_Front/src/main.js:
+    newFile: !uuid 'cd41c28a7cde230646557fcc155f0b305e976e1f'
+    oldFile: !uuid '95cb4edb90450b2db4fa225d1362fe5999b9523e'
+  /05_Web_Front/src/pages:
+    newFile: !uuid '8266698adafdbcde2261ceb856155f38a6daae4a'
+    oldFile: !uuid '0cfab8ddb85be171f2b385204f46c9e8d05a72f1'
+  /05_Web_Front/src/pages/activity:
+    newFile: !uuid '2a381778b7d29cdf0b98be88b52ffc7682e02db6'
+    oldFile: !uuid 'e07e840846716f3d02b17fdc5f9dd07e2df71e5e'
+  /05_Web_Front/src/pages/activity/Activity.vue:
+    newFile: !uuid '1d97f2a23f7c34abfbea537587d55055c8aa6d72'
+    oldFile: !uuid '0a6cdc1bb7233b683e6b5a7c06ec495d7cdb31f1'
+  /05_Web_Front/src/pages/cexchange:
+    newFile: null
+    oldFile: !uuid 'ae7e1405e12f06880b04d0fed71889afcfee9507'
+  /05_Web_Front/src/pages/cexchange/cexchange.vue:
+    newFile: null
+    oldFile: !uuid '2fa603c58a38dca086d5f0787aa8fe6716c834e2'
+gitCommitId: !uuid 'd6030de6c5910b816a0ab2e9b77df386306b99d7'
+renames:
+  /00_framework/admin/src/main/java/com/bizzan/bitrade/AdminApplication.java: /00_framework/admin/src/main/java/com/bizzan/bitrade/WebApplication.java
+revisionId: 20
